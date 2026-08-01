@@ -1,0 +1,8 @@
+# moztopia/monorepo global excludes
+
+**/node_modules
+**/vendor
+**/dist
+**/dump_files*txt
+**/git-diff.txt
+**/.env

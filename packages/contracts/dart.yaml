@@ -1,0 +1,6 @@
+generatorName: dart
+inputSpec: /workspace/packages/contracts/openapi.yaml
+outputDir: /workspace/packages/api-client-dart
+additionalProperties:
+  pubName: api_client
+  pubVersion: 0.0.1

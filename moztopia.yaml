@@ -1,0 +1,27 @@
+meta:
+  name: monorepo
+  version: 1.0.0
+  release: Pinto
+  description: >-
+    Contract-first SaaS monorepo template featuring a Flutter mobile app, Laravel JSON API,
+    React/TypeScript website, and OpenAPI-generated cross-language clients.
+  owner: Owners
+  type: web-saas
+  stack:
+    - Flutter
+    - Dart
+    - Laravel
+    - PHP
+    - React
+    - TypeScript
+    - MariaDB
+    - Redis
+    - Docker
+    - Nginx
+    - Cloudflare Tunnel
+    - OpenAPI
+  repository: https://github.com/moztopia/monorepo
+
+cicd:
+  deploy:
+    enabled: false

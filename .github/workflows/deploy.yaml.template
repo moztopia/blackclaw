@@ -1,0 +1,64 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  typecheck:
+    name: Typecheck Website
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: website
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+
+      - name: Install Dependencies
+        run: |
+          npm install
+
+      - name: Run Typecheck
+        run: |
+          npm run typecheck
+
+  deploy:
+    name: Deploy to Server
+    needs: typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v7
+
+      - name: Copy Files to Server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ vars.DEVELOPMENT_SERVER_IP }}
+          username: ${{ secrets.DEVELOPMENT_SERVER_USER }}
+          key: ${{ secrets.DEVELOPMENT_SERVER_SSH_KEY }}
+          port: 22
+          source: ".docker/**, api/**, website/**, packages/**, docker-compose.yaml, .dockerignore, .env.example"
+          target: "${{ vars.DEVELOPMENT_SERVER_ROOT }}/${{ github.event.repository.name }}"
+          rm: true
+
+      - name: Start Containers via SSH
+        uses: appleboy/ssh-action@v1.2.5
+        with:
+          host: ${{ vars.DEVELOPMENT_SERVER_IP }}
+          username: ${{ secrets.DEVELOPMENT_SERVER_USER }}
+          key: ${{ secrets.DEVELOPMENT_SERVER_SSH_KEY }}
+          port: 22
+          script: |
+            cd ${{ vars.DEVELOPMENT_SERVER_ROOT }}/${{ github.event.repository.name }}
+            echo "APP_NAME=${{ github.event.repository.name }}" > .env
+            echo "CLOUDFLARE_TUNNEL_TOKEN=${{ secrets.CLOUDFLARED_TUNNEL_TOKEN }}" >> .env
+            docker network create moznet 2>/dev/null || true
+            docker compose -f docker-compose.yaml build --no-cache
+            docker compose -f docker-compose.yaml up -d

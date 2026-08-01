@@ -1,0 +1,10 @@
+generatorName: typescript-fetch
+inputSpec: /workspace/packages/contracts/openapi.yaml
+outputDir: /workspace/packages/api-client-typescript
+additionalProperties:
+  npmName: "@app/api-client"
+  npmVersion: "0.0.1"
+  supportsES6: true
+  typescriptThreePlus: true
+  useSingleRequestParameter: true
+  withInterfaces: true

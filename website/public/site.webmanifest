@@ -1,0 +1,17 @@
+{
+  "name": "Scaffold",
+  "short_name": "Scaffold",
+  "description": "A contract-first SaaS monorepo template.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf8",
+  "theme_color": "#6366f1",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

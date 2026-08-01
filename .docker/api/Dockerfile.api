@@ -1,0 +1,43 @@
+ARG PHP_VERSION=cli
+ARG COMPOSER_VERSION=latest
+FROM php:${PHP_VERSION} AS base
+
+WORKDIR /var/www/html
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        $PHPIZE_DEPS \
+        curl \
+        git \
+        libonig-dev \
+        libzip-dev \
+        unzip \
+    && docker-php-ext-install mbstring pdo_mysql zip \
+    && pecl install redis \
+    && docker-php-ext-enable redis \
+    && apt-get purge -y --auto-remove $PHPIZE_DEPS \
+    && rm -rf /var/lib/apt/lists/*
+
+FROM composer:${COMPOSER_VERSION} AS composer_bin
+
+FROM base AS base_with_composer
+COPY --from=composer_bin /usr/bin/composer /usr/bin/composer
+
+FROM base_with_composer AS development
+
+CMD ["sh", "-c", "composer install --no-interaction --prefer-dist && php artisan serve --host=0.0.0.0 --port=8000"]
+
+FROM base_with_composer AS production
+
+COPY --chown=www-data:www-data ./api /var/www/html
+RUN composer install \
+        --classmap-authoritative \
+        --no-dev \
+        --no-interaction \
+        --no-progress \
+        --prefer-dist \
+    && chown -R www-data:www-data storage bootstrap/cache
+
+USER www-data
+
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]

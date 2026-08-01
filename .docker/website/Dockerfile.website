@@ -1,0 +1,31 @@
+ARG NODE_VERSION=latest
+FROM node:${NODE_VERSION} AS base
+
+WORKDIR /usr/src/app
+
+RUN npm install -g typescript
+
+FROM base AS dependencies
+
+COPY ./packages/api-client-typescript /usr/src/packages/api-client-typescript
+RUN cd /usr/src/packages/api-client-typescript && npm install && npm run build
+
+COPY ./website/package.json ./website/package-lock.json ./
+RUN npm ci
+
+FROM base AS development
+
+CMD ["sh", "-c", "npm install && npm run dev -- --host 0.0.0.0"]
+
+FROM dependencies AS build
+
+COPY ./website /usr/src/app
+RUN npm run build
+
+FROM node:${NODE_VERSION} AS production
+
+WORKDIR /usr/src/app
+RUN npm install -g serve
+COPY --from=build /usr/src/app/dist ./dist
+
+CMD ["serve", "-s", "dist", "-l", "3000"]

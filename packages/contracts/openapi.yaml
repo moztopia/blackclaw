@@ -1,0 +1,66 @@
+openapi: 3.0.3
+info:
+  title: API
+  version: 0.0.1
+  description: |
+    The public contract shared by the Laravel API, Flutter application,
+    and React website. Change this document before changing public API behavior.
+servers:
+  - url: http://localhost:8000
+    description: Local development API
+tags:
+  - name: System
+    description: API availability and build information
+paths:
+  /api/v1/status:
+    get:
+      operationId: getStatus
+      tags:
+        - System
+      summary: Get API status
+      description: Returns a small unauthenticated response used for scaffold connectivity checks.
+      responses:
+        "200":
+          description: The API is available.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StatusResponse"
+        "500":
+          description: The API could not produce a status response.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+components:
+  schemas:
+    StatusResponse:
+      type: object
+      additionalProperties: false
+      required:
+        - status
+        - service
+        - timestamp
+      properties:
+        status:
+          type: string
+          enum:
+            - ok
+          example: ok
+        service:
+          type: string
+          description: The configured application name (lowercase).
+          example: myapp
+        timestamp:
+          type: string
+          format: date-time
+          example: "2026-07-12T10:30:00Z"
+    ErrorResponse:
+      type: object
+      additionalProperties: false
+      required:
+        - message
+      properties:
+        message:
+          type: string
+          example: An unexpected error occurred.
