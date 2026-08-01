@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.0.1",
   "private": true,
-  "description": "Public website for the scaffold",
+  "description": "Darkclaw Census API documentation and project website",
   "type": "module",
   "engines": {
     "node": ">=22.12.0"
@@ -16,7 +16,6 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@app/api-client": "file:../packages/api-client-typescript",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },

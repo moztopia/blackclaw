@@ -18,11 +18,11 @@ void main() {
     expect(find.text('Checking API connection…'), findsOneWidget);
     expect(find.text(baseUrl), findsOneWidget);
 
-    response.complete(const ApiStatus(status: 'ok', service: 'monorepo-api'));
+    response.complete(const ApiStatus(status: 'ok', service: 'blackclaw-api'));
     await tester.pumpAndSettle();
 
     expect(find.text('API is online'), findsOneWidget);
-    expect(find.text('monorepo-api · ok'), findsOneWidget);
+    expect(find.text('blackclaw-api · ok'), findsOneWidget);
     expect(source.calls, 1);
   });
 
@@ -30,7 +30,7 @@ void main() {
     var shouldFail = true;
     final source = _FakeStatusSource(() async {
       if (shouldFail) throw Exception('offline');
-      return const ApiStatus(status: 'ok', service: 'monorepo-api');
+      return const ApiStatus(status: 'ok', service: 'blackclaw-api');
     });
 
     await tester.pumpWidget(

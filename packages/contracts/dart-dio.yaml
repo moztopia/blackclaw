@@ -1,0 +1,13 @@
+generatorName: dart-dio
+inputSpec: /workspace/packages/contracts/darkclaw.openapi.yaml
+outputDir: /workspace/packages/darkclaw-census-api-client-dart-dio
+templateDir: /workspace/packages/contracts/templates/dart-dio
+additionalProperties:
+  pubName: darkclaw_census_api_client
+  pubVersion: 0.2.0
+  pubDescription: Unofficial Dart client for the modern Darkclaw game data API.
+  pubHomepage: https://darkclaw.mozrin.com
+  pubRepository: https://github.com/moztopia/darkclaw
+  serializationLibrary: json_serializable
+  disallowAdditionalPropertiesIfNotPresent: false
+  enumUnknownDefaultCase: true

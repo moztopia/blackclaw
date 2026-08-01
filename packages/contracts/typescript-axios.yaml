@@ -1,0 +1,13 @@
+generatorName: typescript-axios
+inputSpec: /workspace/packages/contracts/darkclaw.openapi.yaml
+outputDir: /workspace/packages/darkclaw-census-api-client-typescript-axios
+templateDir: /workspace/packages/contracts/templates/typescript-axios
+additionalProperties:
+  npmName: '@darkclaw/census-api-client'
+  npmVersion: 0.2.0
+  supportsES6: true
+  useSingleRequestParameter: true
+  withInterfaces: true
+  disallowAdditionalPropertiesIfNotPresent: false
+  enumUnknownDefaultCase: true
+  nullSafeAdditionalProps: true

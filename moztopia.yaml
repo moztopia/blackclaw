@@ -1,14 +1,13 @@
 meta:
-  name: monorepo
-  version: 1.0.0
-  release: Pinto
+  name: darkclaw
+  version: 0.1.0
+  release: Foundation
   description: >-
-    Contract-first SaaS monorepo template featuring a Flutter mobile app, Laravel JSON API,
-    React/TypeScript website, and OpenAPI-generated cross-language clients.
-  owner: Owners
-  type: web-saas
+    Unofficial OpenAPI specification, documentation website, and generated clients for
+    the Darkpaw Games Census API.
+  owner: Mozrin
+  type: documentation
   stack:
-    - Flutter
     - Dart
     - Laravel
     - PHP
@@ -20,7 +19,7 @@ meta:
     - Nginx
     - Cloudflare Tunnel
     - OpenAPI
-  repository: https://github.com/moztopia/monorepo
+  repository: https://github.com/moztopia/darkclaw
 
 cicd:
   deploy:

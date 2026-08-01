@@ -1,0 +1,2631 @@
+{
+  "properties": {
+    "account": {
+      "properties": {
+        "age": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "achievements": {
+      "properties": {
+        "achievement_list": {
+          "items": {
+            "properties": {
+              "completed_timestamp": {
+                "types": [
+                  "integer"
+                ]
+              },
+              "event_list": {
+                "items": {
+                  "properties": {
+                    "count": {
+                      "types": [
+                        "integer"
+                      ]
+                    }
+                  },
+                  "types": [
+                    "object"
+                  ]
+                },
+                "types": [
+                  "array"
+                ]
+              },
+              "id": {
+                "types": [
+                  "integer"
+                ]
+              }
+            },
+            "types": [
+              "object"
+            ]
+          },
+          "types": [
+            "array"
+          ]
+        },
+        "completed": {
+          "types": [
+            "integer"
+          ]
+        },
+        "points": {
+          "types": [
+            "integer"
+          ]
+        },
+        "total_count": {
+          "types": [
+            "integer"
+          ]
+        },
+        "total_points": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "alternateadvancements": {
+      "properties": {
+        "alternateadvancement_list": {
+          "items": {
+            "properties": {
+              "id": {
+                "types": [
+                  "integer"
+                ]
+              },
+              "tier": {
+                "types": [
+                  "integer"
+                ]
+              },
+              "treeID": {
+                "types": [
+                  "integer"
+                ]
+              }
+            },
+            "types": [
+              "object"
+            ]
+          },
+          "types": [
+            "array"
+          ]
+        },
+        "availablepoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "focusavailablepoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "focusspentpoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "prestigeavailablepoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "prestigespentpoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "spentpoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "tsavailablepoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "tsprestigeavailablepoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "tsprestigespentpoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "tsspentpoints": {
+          "types": [
+            "integer"
+          ]
+        },
+        "warderpoints": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "appearanceslot_list": {
+      "items": {
+        "properties": {
+          "displayname": {
+            "types": [
+              "string"
+            ]
+          },
+          "id": {
+            "types": [
+              "integer"
+            ]
+          },
+          "name": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "types": [
+          "object"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "arena": {
+      "properties": {
+        "ctf": {
+          "properties": {
+            "captures": {
+              "types": [
+                "integer"
+              ]
+            },
+            "deaths": {
+              "types": [
+                "integer"
+              ]
+            },
+            "kills": {
+              "types": [
+                "integer"
+              ]
+            },
+            "losses": {
+              "types": [
+                "integer"
+              ]
+            },
+            "matches": {
+              "types": [
+                "integer"
+              ]
+            },
+            "streak": {
+              "types": [
+                "integer"
+              ]
+            },
+            "timeplayed": {
+              "types": [
+                "integer"
+              ]
+            },
+            "wins": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "deathmatch": {
+          "properties": {
+            "deaths": {
+              "types": [
+                "integer"
+              ]
+            },
+            "kills": {
+              "types": [
+                "integer"
+              ]
+            },
+            "losses": {
+              "types": [
+                "integer"
+              ]
+            },
+            "matches": {
+              "types": [
+                "integer"
+              ]
+            },
+            "streak": {
+              "types": [
+                "integer"
+              ]
+            },
+            "timeplayed": {
+              "types": [
+                "integer"
+              ]
+            },
+            "wins": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "idol": {
+          "properties": {
+            "deaths": {
+              "types": [
+                "integer"
+              ]
+            },
+            "destroyed": {
+              "types": [
+                "integer"
+              ]
+            },
+            "kills": {
+              "types": [
+                "integer"
+              ]
+            },
+            "losses": {
+              "types": [
+                "integer"
+              ]
+            },
+            "matches": {
+              "types": [
+                "integer"
+              ]
+            },
+            "streak": {
+              "types": [
+                "integer"
+              ]
+            },
+            "timeplayed": {
+              "types": [
+                "integer"
+              ]
+            },
+            "wins": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "bio": {
+      "properties": {},
+      "types": [
+        "object"
+      ]
+    },
+    "collections": {
+      "properties": {
+        "active": {
+          "types": [
+            "integer"
+          ]
+        },
+        "complete": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "dbid": {
+      "types": [
+        "integer"
+      ]
+    },
+    "displayname": {
+      "types": [
+        "string"
+      ]
+    },
+    "dungeon_item_list": {
+      "items": {
+        "types": [
+          "integer"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "dungeon_list": {
+      "items": {
+        "types": []
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "equipmentslot_list": {
+      "items": {
+        "properties": {
+          "displayname": {
+            "types": [
+              "string"
+            ]
+          },
+          "id": {
+            "types": [
+              "integer"
+            ]
+          },
+          "item": {
+            "properties": {
+              "adornment_list": {
+                "items": {
+                  "properties": {
+                    "color": {
+                      "types": [
+                        "string"
+                      ]
+                    }
+                  },
+                  "types": [
+                    "object"
+                  ]
+                },
+                "types": [
+                  "array"
+                ]
+              },
+              "id": {
+                "types": [
+                  "integer"
+                ]
+              }
+            },
+            "types": [
+              "object"
+            ]
+          },
+          "name": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "types": [
+          "object"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "experience": {
+      "properties": {
+        "adventureexpfornextlevel": {
+          "types": [
+            "number"
+          ]
+        },
+        "currentadventureexp": {
+          "types": [
+            "number"
+          ]
+        },
+        "currenttradeskillexp": {
+          "types": [
+            "number"
+          ]
+        },
+        "tradeskillexpfornextlevel": {
+          "types": [
+            "number"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "faction_list": {
+      "items": {
+        "properties": {
+          "id": {
+            "types": [
+              "integer"
+            ]
+          },
+          "value": {
+            "types": [
+              "integer"
+            ]
+          }
+        },
+        "types": [
+          "object"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "house_list": {
+      "items": {
+        "types": []
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "id": {
+      "types": [
+        "integer"
+      ]
+    },
+    "language_list": {
+      "items": {
+        "properties": {
+          "id": {
+            "types": [
+              "integer"
+            ]
+          },
+          "name": {
+            "types": [
+              "string"
+            ]
+          }
+        },
+        "types": [
+          "object"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "last_update": {
+      "types": [
+        "integer",
+        "number"
+      ]
+    },
+    "locationdata": {
+      "properties": {
+        "bindzone": {
+          "types": [
+            "string"
+          ]
+        },
+        "coords": {
+          "types": [
+            "string"
+          ]
+        },
+        "homefaction": {
+          "types": [
+            "integer"
+          ]
+        },
+        "world": {
+          "types": [
+            "string"
+          ]
+        },
+        "worldid": {
+          "types": [
+            "integer"
+          ]
+        },
+        "zonename": {
+          "types": [
+            "string"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "name": {
+      "properties": {
+        "first": {
+          "types": [
+            "string"
+          ]
+        },
+        "first_lower": {
+          "types": [
+            "string"
+          ]
+        },
+        "last": {
+          "types": [
+            "string"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "orderedalternateadvancement_list": {
+      "items": {
+        "properties": {
+          "alternateadvancement_list": {
+            "items": {
+              "types": []
+            },
+            "types": [
+              "array"
+            ]
+          }
+        },
+        "types": [
+          "object"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "playedtime": {
+      "types": [
+        "integer"
+      ]
+    },
+    "pvp": {
+      "properties": {
+        "city_kills": {
+          "types": [
+            "integer"
+          ]
+        },
+        "death_streak": {
+          "types": [
+            "integer"
+          ]
+        },
+        "deaths": {
+          "types": [
+            "integer"
+          ]
+        },
+        "kill_streak": {
+          "types": [
+            "integer"
+          ]
+        },
+        "last_killer": {
+          "types": [
+            "integer"
+          ]
+        },
+        "title_rank": {
+          "types": [
+            "integer"
+          ]
+        },
+        "wild_kills": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "quests": {
+      "properties": {
+        "active": {
+          "types": [
+            "integer"
+          ]
+        },
+        "complete": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "resists": {
+      "properties": {
+        "arcane": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "elemental": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "noxious": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "physical": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "secondarytradeskills": {
+      "properties": {
+        "adorning": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "tinkering": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "skills": {
+      "properties": {
+        "adorning": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "aggression": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "alcoholtolerance": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "crushing": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "defense": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "deflection": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "disarmtrap": {
+          "properties": {
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "disruption": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "fishing": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "focus": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "foresting": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "gathering": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "investigating": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "mining": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "ministration": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "ordination": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "parry": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "piercing": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "poisoning": {
+          "properties": {
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "ranged": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "safefall": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "slashing": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "subjugation": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "swimming": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "tinkering": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "tracking": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "transmuting": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "trapping": {
+          "properties": {
+            "displayname": {
+              "types": [
+                "string"
+              ]
+            },
+            "earnedvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effectvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "maxvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "totalvalue": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "spell_list": {
+      "items": {
+        "types": [
+          "integer"
+        ]
+      },
+      "types": [
+        "array"
+      ]
+    },
+    "statistics": {
+      "properties": {
+        "deaths": {
+          "properties": {
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "items_crafted": {
+          "properties": {
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "kills": {
+          "properties": {
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "kills_deaths_ratio": {
+          "properties": {
+            "value": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "max_magic_hit": {
+          "properties": {
+            "spell": {
+              "types": [
+                "integer"
+              ]
+            },
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "max_melee_hit": {
+          "properties": {
+            "value": {
+              "types": [
+                "integer"
+              ]
+            },
+            "weapon": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "rare_harvests": {
+          "properties": {
+            "value": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "stats": {
+      "properties": {
+        "ability": {
+          "properties": {
+            "spelltimecastpct": {
+              "types": [
+                "number"
+              ]
+            },
+            "spelltimerecoverypct": {
+              "types": [
+                "number"
+              ]
+            },
+            "spelltimereusepct": {
+              "types": [
+                "number"
+              ]
+            },
+            "spelltimereusespellonly": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "agi": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "combat": {
+          "properties": {
+            "abilitymod": {
+              "types": [
+                "number"
+              ]
+            },
+            "accuracy": {
+              "types": [
+                "number"
+              ]
+            },
+            "aeautoattackchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "attackspeed": {
+              "types": [
+                "number"
+              ]
+            },
+            "baseavoidancebonus": {
+              "types": [
+                "number"
+              ]
+            },
+            "basemodifier": {
+              "types": [
+                "number"
+              ]
+            },
+            "blockchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "combathpregenppt": {
+              "types": [
+                "number"
+              ]
+            },
+            "critbonus": {
+              "types": [
+                "number"
+              ]
+            },
+            "critchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "criticalmitigation": {
+              "types": [
+                "number"
+              ]
+            },
+            "dissonancegainmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "dissonanceregen": {
+              "types": [
+                "number"
+              ]
+            },
+            "doubleattackchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "dps": {
+              "types": [
+                "number"
+              ]
+            },
+            "flurry": {
+              "types": [
+                "number"
+              ]
+            },
+            "hategainmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "incombatdissonanceregen": {
+              "types": [
+                "number"
+              ]
+            },
+            "incombatsavageryregen": {
+              "types": [
+                "number"
+              ]
+            },
+            "lethality": {
+              "types": [
+                "number"
+              ]
+            },
+            "lethality_pvp": {
+              "types": [
+                "number"
+              ]
+            },
+            "maxsavagerylevel": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_arcane": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_arcane_pvp": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_elemental": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_elemental_pvp": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_noxious": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_noxious_pvp": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_physical": {
+              "types": [
+                "number"
+              ]
+            },
+            "mitigation_physical_pvp": {
+              "types": [
+                "number"
+              ]
+            },
+            "outofcombatdissonanceregen": {
+              "types": [
+                "number"
+              ]
+            },
+            "outofcombatsavageryregen": {
+              "types": [
+                "number"
+              ]
+            },
+            "pvpbasemodifier": {
+              "types": [
+                "number"
+              ]
+            },
+            "pvpcritbonus": {
+              "types": [
+                "number"
+              ]
+            },
+            "pvpcriticalmitigation": {
+              "types": [
+                "number"
+              ]
+            },
+            "pvpdoubleattackchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "pvptoughness": {
+              "types": [
+                "integer"
+              ]
+            },
+            "savagerygainmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "savageryregen": {
+              "types": [
+                "number"
+              ]
+            },
+            "spelldoubleattackchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "strikethrough": {
+              "types": [
+                "number"
+              ]
+            },
+            "toughness": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "defense": {
+          "properties": {
+            "armor": {
+              "types": [
+                "integer"
+              ]
+            },
+            "avoidance": {
+              "types": [
+                "integer"
+              ]
+            },
+            "block": {
+              "types": [
+                "integer"
+              ]
+            },
+            "parry": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "health": {
+          "properties": {
+            "max": {
+              "types": [
+                "integer"
+              ]
+            },
+            "regen": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "int": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "personal_status_points": {
+          "types": [
+            "integer"
+          ]
+        },
+        "power": {
+          "properties": {
+            "max": {
+              "types": [
+                "integer"
+              ]
+            },
+            "regen": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "runspeed": {
+          "types": [
+            "number"
+          ]
+        },
+        "sta": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "str": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "tradeskill": {
+          "properties": {
+            "craftquantitymult": {
+              "types": [
+                "number"
+              ]
+            },
+            "critfailuremod": {
+              "types": [
+                "number"
+              ]
+            },
+            "critsuccessmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "durabilityadd": {
+              "types": [
+                "number"
+              ]
+            },
+            "durabilitymod": {
+              "types": [
+                "number"
+              ]
+            },
+            "excritfailuremod": {
+              "types": [
+                "number"
+              ]
+            },
+            "excritsuccessmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "exdurabilityadd": {
+              "types": [
+                "number"
+              ]
+            },
+            "exdurabilitymod": {
+              "types": [
+                "number"
+              ]
+            },
+            "experimentationattempts": {
+              "types": [
+                "number"
+              ]
+            },
+            "exprogressadd": {
+              "types": [
+                "number"
+              ]
+            },
+            "exprogressmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "exsuccessmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "materialreturnperc": {
+              "types": [
+                "number"
+              ]
+            },
+            "progressadd": {
+              "types": [
+                "number"
+              ]
+            },
+            "progressmod": {
+              "types": [
+                "number"
+              ]
+            },
+            "rareharvestchance": {
+              "types": [
+                "number"
+              ]
+            },
+            "refinequantitymod": {
+              "types": [
+                "number"
+              ]
+            },
+            "successmod": {
+              "types": [
+                "number"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "weapon": {
+          "properties": {
+            "primarydelay": {
+              "types": [
+                "number"
+              ]
+            },
+            "primarymaxdamage": {
+              "types": [
+                "integer"
+              ]
+            },
+            "primarymindamage": {
+              "types": [
+                "integer"
+              ]
+            },
+            "rangeddelay": {
+              "types": [
+                "number"
+              ]
+            },
+            "rangedmaxdamage": {
+              "types": [
+                "integer"
+              ]
+            },
+            "rangedmindamage": {
+              "types": [
+                "integer"
+              ]
+            },
+            "secondarydelay": {
+              "types": [
+                "number"
+              ]
+            },
+            "secondarymaxdamage": {
+              "types": [
+                "integer"
+              ]
+            },
+            "secondarymindamage": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        },
+        "wis": {
+          "properties": {
+            "base": {
+              "types": [
+                "integer"
+              ]
+            },
+            "effective": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "tradeskills": {
+      "properties": {
+        "unskilled": {
+          "properties": {
+            "level": {
+              "types": [
+                "integer"
+              ]
+            }
+          },
+          "types": [
+            "object"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "ts": {
+      "types": [
+        "number"
+      ]
+    },
+    "type": {
+      "properties": {
+        "alignment": {
+          "types": [
+            "integer"
+          ]
+        },
+        "birthdate_utc": {
+          "types": [
+            "integer"
+          ]
+        },
+        "class": {
+          "types": [
+            "string"
+          ]
+        },
+        "classid": {
+          "types": [
+            "integer"
+          ]
+        },
+        "deity": {
+          "types": [
+            "string"
+          ]
+        },
+        "gender": {
+          "types": [
+            "string"
+          ]
+        },
+        "level": {
+          "types": [
+            "integer"
+          ]
+        },
+        "race": {
+          "types": [
+            "string"
+          ]
+        },
+        "raceid": {
+          "types": [
+            "integer"
+          ]
+        }
+      },
+      "types": [
+        "object"
+      ]
+    },
+    "version": {
+      "types": [
+        "integer"
+      ]
+    },
+    "visible": {
+      "types": [
+        "integer"
+      ]
+    }
+  },
+  "types": [
+    "object"
+  ]
+}

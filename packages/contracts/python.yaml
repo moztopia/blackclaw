@@ -1,0 +1,10 @@
+generatorName: python
+inputSpec: /workspace/packages/contracts/darkclaw.openapi.yaml
+outputDir: /workspace/packages/darkclaw-census-api-client-python
+additionalProperties:
+  packageName: darkclaw_census_api_client
+  projectName: darkclaw-census-api-client
+  packageVersion: 0.2.0
+  packageUrl: https://darkclaw.mozrin.com
+  library: urllib3
+  disallowAdditionalPropertiesIfNotPresent: false

@@ -48,8 +48,7 @@ fi
 # --- Generate & install ------------------------------------------------------
 ./scripts/generate-clients.sh
 npm install --prefix website
-(cd packages/api-client-dart && dart pub get)
-(cd app && flutter pub get)
+(cd packages/darkclaw-census-api-client-dart-dio && dart pub get)
 
 # --- Docker ------------------------------------------------------------------
 docker compose up --build --detach
@@ -66,4 +65,3 @@ echo "${APP_NAME^} is ready:"
 echo "  Website: http://${APP_NAME}.localhost"
 echo "  API:     http://${APP_NAME}.localhost/api/v1/status"
 echo "  Mobile:  make run-app"
-

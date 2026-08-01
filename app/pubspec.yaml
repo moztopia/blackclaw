@@ -9,8 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  api_client:
-    path: ../packages/api-client-dart
+  dio: ^5.7.0
 
 dev_dependencies:
   flutter_test:

@@ -1,0 +1,752 @@
+{
+  "datatype_list": [
+    {
+      "count": 10687,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "achievement",
+      "resolve_list": []
+    },
+    {
+      "count": 204200,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "adventure_sets",
+      "resolve_list": []
+    },
+    {
+      "count": 158,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "alternateadvancement",
+      "resolve_list": []
+    },
+    {
+      "count": 1,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "alternateadvancementgroup",
+      "resolve_list": []
+    },
+    {
+      "count": 0,
+      "hidden": false,
+      "indexes": [],
+      "name": "alternateadvancementtree",
+      "resolve_list": []
+    },
+    {
+      "count": 169345,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "appearance_sets",
+      "resolve_list": []
+    },
+    {
+      "count": 2472240,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "displayname"
+        ],
+        [
+          "name.first"
+        ],
+        [
+          "guild.id"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.kills.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.kills.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.deaths.value"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.deaths.value"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.max_melee_hit.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.max_melee_hit.value"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.max_magic_hit.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.max_magic_hit.value"
+        ],
+        [
+          "visible"
+        ],
+        [
+          "last_update"
+        ],
+        [
+          "ts"
+        ],
+        [
+          "locationdata.worldid",
+          "dbid"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.kills_deaths_ratio.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.kills_deaths_ratio.value"
+        ],
+        [
+          "name.first_lower"
+        ],
+        [
+          "account.link_id"
+        ],
+        [
+          "achievements.achievement_list.id",
+          "achievements.achievement_list.completed_timestamp"
+        ],
+        [
+          "type.level"
+        ],
+        [
+          "type.classid",
+          "statistics.kills.value"
+        ],
+        [
+          "statistics.kills.value"
+        ],
+        [
+          "type.classid",
+          "statistics.deaths.value"
+        ],
+        [
+          "statistics.deaths.value"
+        ],
+        [
+          "type.classid",
+          "statistics.kills_deaths_ratio.value"
+        ],
+        [
+          "statistics.kills_deaths_ratio.value"
+        ],
+        [
+          "type.classid",
+          "statistics.max_melee_hit.value"
+        ],
+        [
+          "statistics.max_melee_hit.value"
+        ],
+        [
+          "type.classid",
+          "statistics.max_magic_hit.value"
+        ],
+        [
+          "statistics.max_magic_hit.value"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.items_crafted.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.items_crafted.value"
+        ],
+        [
+          "type.classid",
+          "statistics.items_crafted.value"
+        ],
+        [
+          "statistics.items_crafted.value"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "statistics.rare_harvests.value"
+        ],
+        [
+          "locationdata.worldid",
+          "statistics.rare_harvests.value"
+        ],
+        [
+          "type.classid",
+          "statistics.rare_harvests.value"
+        ],
+        [
+          "statistics.rare_harvests.value"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "achievements.completed"
+        ],
+        [
+          "locationdata.worldid",
+          "achievements.completed"
+        ],
+        [
+          "type.classid",
+          "achievements.completed"
+        ],
+        [
+          "achievements.completed"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "achievements.points"
+        ],
+        [
+          "locationdata.worldid",
+          "achievements.points"
+        ],
+        [
+          "type.classid",
+          "achievements.points"
+        ],
+        [
+          "achievements.points"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "collections.complete"
+        ],
+        [
+          "locationdata.worldid",
+          "collections.complete"
+        ],
+        [
+          "type.classid",
+          "collections.complete"
+        ],
+        [
+          "collections.complete"
+        ],
+        [
+          "locationdata.worldid",
+          "type.classid",
+          "quests.complete"
+        ],
+        [
+          "locationdata.worldid",
+          "quests.complete"
+        ],
+        [
+          "type.classid",
+          "quests.complete"
+        ],
+        [
+          "quests.complete"
+        ]
+      ],
+      "name": "character",
+      "resolve_list": [
+        "statistics",
+        "statistics-all",
+        "statistics-worldwide",
+        "statistics-worldwide-class",
+        "statistics-world",
+        "statistics-world-class",
+        "spells",
+        "factions",
+        "appearanceslots",
+        "equipmentslots",
+        "achievements",
+        "warders",
+        "dungeon_items"
+      ]
+    },
+    {
+      "count": 5219090,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "asset_id",
+          "category"
+        ],
+        [
+          "owner_id",
+          "category",
+          "ts"
+        ],
+        [
+          "owner_id",
+          "category",
+          "last_update"
+        ]
+      ],
+      "name": "character.attachment",
+      "resolve_list": []
+    },
+    {
+      "count": 1095,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ]
+      ],
+      "name": "character.stat",
+      "resolve_list": []
+    },
+    {
+      "count": 27,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ]
+      ],
+      "name": "character.stat.global",
+      "resolve_list": []
+    },
+    {
+      "count": 55,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ]
+      ],
+      "name": "character.stat.world",
+      "resolve_list": []
+    },
+    {
+      "count": 6152871,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "character_misc",
+      "resolve_list": []
+    },
+    {
+      "count": 0,
+      "hidden": false,
+      "indexes": [],
+      "name": "charactermisc",
+      "resolve_list": []
+    },
+    {
+      "count": 2277,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "collection",
+      "resolve_list": []
+    },
+    {
+      "count": 1,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "constants",
+      "resolve_list": []
+    },
+    {
+      "count": 345,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "faction",
+      "resolve_list": []
+    },
+    {
+      "count": 141878,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "name"
+        ],
+        [
+          "name_lower"
+        ],
+        [
+          "world"
+        ],
+        [
+          "worldid",
+          "guildid"
+        ],
+        [
+          "level"
+        ],
+        [
+          "members"
+        ],
+        [
+          "dateformed"
+        ],
+        [
+          "recruiting.minlevel"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "guild",
+      "resolve_list": [
+        "members"
+      ]
+    },
+    {
+      "count": 12385,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "owner_id",
+          "category",
+          "last_update"
+        ],
+        [
+          "owner_id",
+          "category",
+          "ts"
+        ]
+      ],
+      "name": "icons.attachment",
+      "resolve_list": []
+    },
+    {
+      "count": 5849,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ]
+      ],
+      "name": "icons.attachments",
+      "resolve_list": []
+    },
+    {
+      "count": 510671,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "visible"
+        ],
+        [
+          "displayname"
+        ],
+        [
+          "displayname_lower"
+        ],
+        [
+          "dungeon_item_id"
+        ],
+        [
+          "ts"
+        ],
+        [
+          "_extended.discovered.world_list.charid"
+        ],
+        [
+          "_extended.discovered.timestamp"
+        ],
+        [
+          "_extended.discovered.charid",
+          "_extended.discovered.timestamp"
+        ],
+        [
+          "last_update"
+        ],
+        [
+          "itemlevel"
+        ]
+      ],
+      "name": "item",
+      "resolve_list": []
+    },
+    {
+      "count": 665,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "itemtable",
+      "resolve_list": []
+    },
+    {
+      "count": 1,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "marketplace",
+      "resolve_list": []
+    },
+    {
+      "count": 5186,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "marketplace_item",
+      "resolve_list": []
+    },
+    {
+      "count": 1435889,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "mercenary",
+      "resolve_list": []
+    },
+    {
+      "count": 2648,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "npc",
+      "resolve_list": []
+    },
+    {
+      "count": 15405,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ],
+        [
+          "crc"
+        ]
+      ],
+      "name": "quest",
+      "resolve_list": []
+    },
+    {
+      "count": 3190,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "questgiver",
+      "resolve_list": []
+    },
+    {
+      "count": 66435,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "recipe",
+      "resolve_list": []
+    },
+    {
+      "count": 10999,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "spawncamp",
+      "resolve_list": []
+    },
+    {
+      "count": 167254,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "crc",
+          "tier"
+        ],
+        [
+          "name"
+        ],
+        [
+          "name_lower"
+        ],
+        [
+          "last_update"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "spell",
+      "resolve_list": []
+    },
+    {
+      "count": 699,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "treasureclass",
+      "resolve_list": []
+    },
+    {
+      "count": 43,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "world",
+      "resolve_list": []
+    },
+    {
+      "count": 58,
+      "hidden": false,
+      "indexes": [
+        [
+          "id"
+        ],
+        [
+          "ts"
+        ]
+      ],
+      "name": "zone",
+      "resolve_list": []
+    }
+  ],
+  "returned": 33
+}

@@ -19,7 +19,7 @@ services:
       npm_config_cache: /tmp/npm-cache
     volumes:
       - ./website:/usr/src/app
-      - ./packages/api-client-typescript:/usr/src/packages/api-client-typescript
+      - ./packages/darkclaw-census-api-client-typescript-axios:/usr/src/packages/darkclaw-census-api-client-typescript-axios
     networks:
       - appnet
       - moznet

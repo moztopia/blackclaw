@@ -1,0 +1,32 @@
+name: {{pubName}}
+version: {{pubVersion}}
+description: {{pubDescription}}
+homepage: {{pubHomepage}}
+{{#pubRepository}}
+repository: {{.}}
+{{/pubRepository}}
+{{#pubPublishTo}}
+publish_to: {{.}}
+{{/pubPublishTo}}
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  dio: '^5.7.0'
+{{#useJsonSerializable}}
+  {{^skipCopyWith}}
+  copy_with_extension: '^7.1.0'
+  {{/skipCopyWith}}
+  json_annotation: '^4.9.0'
+{{/useJsonSerializable}}
+
+dev_dependencies:
+  build_runner: any
+{{#useJsonSerializable}}
+  {{^skipCopyWith}}
+  copy_with_extension_gen: ^7.1.0
+  {{/skipCopyWith}}
+  json_serializable: '^6.9.3'
+{{/useJsonSerializable}}
+  test: '^1.16.0'

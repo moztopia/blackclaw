@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "name": "blackclaw",
+      "path": ".",
+    },
+    {
+      "name": "dugout",
+      "path": "../dugout",
+    },
+  ],
+  "settings": {
+    "makefile.configureOnOpen": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.env.linux": {
+      "PATH": "${workspaceFolder:dugout}/bin:${env:PATH}",
+    },
+    "terminal.integrated.env.osx": {
+      "PATH": "${workspaceFolder:dugout}/bin:${env:PATH}",
+    },
+  },
+}

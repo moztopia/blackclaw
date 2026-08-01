@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'census' => [
+        'base_url' => env('CENSUS_BASE_URL', 'https://census.daybreakgames.com'),
+        'service_id' => env('CENSUS_SERVICE_ID', 'example'),
+        'timeout' => (int) env('CENSUS_TIMEOUT', 10),
+    ],
+
 ];

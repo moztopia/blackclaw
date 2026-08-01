@@ -1,240 +1,148 @@
-# Monorepo 🚀
+# Darkclaw
 
-A **contract‑first SaaS monorepo** template featuring a Flutter mobile app, Laravel JSON API, React/TypeScript website, and OpenAPI-generated cross-language clients.
+Darkclaw is a public, unofficial OpenAPI specification, documentation project,
+and collection of generated API clients for the Darkpaw Games Census API.
 
----
+**Darkclaw is not affiliated with or endorsed by Darkpaw Games.**
 
-> ⛔ **STOP!** This repo will not function correctly without at least walking through the Quick Start process below. Do not attempt to run `docker compose up` or any other commands before completing `make setup`.
+The project makes Census easier to discover and use across programming
+languages. It combines generic Census operations with progressively typed
+game-specific coverage. EverQuest II is the first typed namespace; generic
+collection access remains available for EQ2, PlanetSide 2, DC Universe Online,
+Magic: The Gathering Online, and other Census namespaces.
 
-## ⚡ Quick Start
+The public documentation website is
+[darkclaw.mozrin.com](https://darkclaw.mozrin.com).
 
-### 1. Create Your Repository
+Contributors are welcome. Whether you are improving a schema, adding a client
+generator, documenting an upstream behavior, writing tests, or refining the
+website, see [Contributing](#contributing) for a safe place to begin.
 
-Since this is a GitHub template, you can quickly boot up your own repository:
+## Repository overview
 
-1. Click the **Use this template** button at the top of the GitHub repository page, then select **Create a new repository**.
-2. Give your repository a name and clone it to your local machine.
+| Path | Purpose | Documentation |
+| --- | --- | --- |
+| `packages/contracts/` | Canonical OpenAPI contract, generator configurations, and repeatable Census snapshots | [Contract guide](packages/contracts/README.md) |
+| `packages/darkclaw-census-api-client-*` | Disposable clients generated from the canonical contract | Generated README and API docs in each package |
+| `cli/` | Generated-client test harness for the Darkclaw API | [CLI guide](cli/README.md) |
+| `website/` | Public Darkclaw documentation and marketing website | [Website guide](website/README.md) |
+| `api/` | Laravel proxy implementing the modern Darkclaw API | [API guide](api/README.md) |
+| `app/` | Flutter application scaffold | [App guide](app/README.md) |
+| `scripts/` | Contract validation, client generation, and snapshot tooling | Source and command help |
 
-### 2. Check Prerequisites
+[`packages/contracts/darkclaw.openapi.yaml`](packages/contracts/darkclaw.openapi.yaml)
+is the canonical public API contract. Generated packages must never be
+edited manually because `make contract-generate` deletes and recreates them.
 
-Ensure you have the following installed on your machine:
+## Getting started
 
-* **Docker** & **Docker Compose**
-* **Node.js** & **npm** (for the website)
-* **Flutter** & **Dart** (for the mobile application)
-* **OpenSSL**
+The contract and CLI require Python 3.9 or newer. Full client generation and
+website development also require Docker, Node.js, npm, Flutter, and Dart.
 
-#### Local development network
+```sh
+git clone git@github.com:mozrin/blackclaw.git
+cd blackclaw
+make contract-validate
+make contract-generate
+make test-clients
+```
 
-Local development uses `docker-compose.override.yaml`, which disables the built-in proxy and Cloudflare tunnel services and instead connects the `api` and `website` containers to an external Docker network called `moznet`. This network — and the nginx reverse proxy that routes `*.localhost` traffic — is provided by the [moztopia/dugout](https://github.com/moztopia/dugout) development environment. Dugout also provides shared development tools such as Adminer and Portainer; by joining the `moznet` network, any locally running project is automatically exposed to that toolset. Clone and start `moztopia/dugout` before running `make setup`. See the [moztopia/dugout README](https://github.com/moztopia/dugout#readme) for more details.
+For the Laravel and React documentation site, start
+[moztopia/dugout](https://github.com/moztopia/dugout) first, then run:
 
-### 3. Spin Up the Scaffold
-
-From the root of the project, initialize the configuration files, generate API clients, install dependencies, and start the development containers in one step:
-
-```bash
+```sh
 make setup
+make up
 ```
 
-This command automates the following setup steps:
+The local website is available at <http://blackclaw.localhost>.
 
-* Sets `APP_NAME` to the project directory name (e.g. cloning into `monotest/` → `APP_NAME=monotest`)
-* Copies environment example files (`.env.example`)
-* Creates application encryption keys
-* Validates the OpenAPI document and regenerates the Dart and TypeScript clients
-* Installs local dependencies for all services
-* Starts the development Docker containers
-* Runs Laravel database migrations
+## Census CLI
 
-Once completed, you can access the local services (using the directory name as the subdomain):
+Blackclaw includes a comprehensive test harness for the generated Python client
+and the modern Laravel proxy. Install its local environment before first use:
 
-* **React Website**: `http://<APP_NAME>.localhost`
-* **Laravel API Status**: `http://<APP_NAME>.localhost/api/v1/status`
-* **Flutter Mobile App**: Run `cd app && flutter run`
+```sh
+make install-cli
+./cli/blackclaw --help
+./cli/blackclaw collections eq2
+./cli/blackclaw characters --name Zarenda --page-size 1
+./cli/blackclaw character 463858770551
+./cli/blackclaw models Character
+```
 
----
+The proxy owns all Census-specific service IDs and transport conventions. See
+the [CLI guide](cli/README.md) for commands, configuration, and tests.
 
-## 🛠 Technical Scaffold
+## Contract workflow
 
-This monorepo is built with four working areas:
+Darkclaw uses a contract-first, evidence-backed workflow:
 
-* `app/` — Flutter mobile application
-* `api/` — Laravel JSON API
-* `packages/` — OpenAPI contract and generated Dart/TypeScript clients
-* `website/` — React + TypeScript public website
+1. Capture or check upstream behavior with the snapshot tools.
+2. Curate the behavior into the canonical OpenAPI document.
+3. Validate the contract and its project conventions.
+4. Regenerate every configured client from scratch.
+5. Build and test the generated packages before review.
 
-### Contract‑first workflow
+```sh
+make snapshot-eq2
+make snapshot-eq2-check
+make contract-validate
+make contract-generate
+make contract-check-generated
+make test-clients
+```
 
-1. Edit `packages/contracts/openapi.yaml`
-2. Run `make generate`
-3. Implement the Laravel route and response
-4. Use the generated clients in `app/` and `website/`
-5. Run `make test`
+OpenAPI Generator is pinned to `v7.22.0`. The first client milestone covers
+`dart-dio`, standard `python`, and `typescript-axios`. The planned generator
+matrix and snapshot rules are documented in the
+[contract guide](packages/contracts/README.md).
 
-Generated clients under `packages/api-client-*` must not be edited manually.
+## Contributing
 
-### Common commands
+Contributions of all sizes are invited. Good first contributions include
+correcting documentation, adding contract examples, expanding snapshot tests,
+improving generated-client verification, and documenting Census quirks.
 
-| Command | Description |
+Before opening a pull request:
+
+1. Read the [contract guide](packages/contracts/README.md) and the README for
+   the component you are changing.
+2. Keep the canonical contract generic where Census is dynamic and add typed
+   operations only when repeatable upstream evidence supports them.
+3. Never hand-edit generated clients. Change the contract, generator
+   configuration, or tracked template and regenerate instead.
+4. Add or update tests for behavior changes.
+5. Run the relevant checks below and describe the results in the pull request.
+6. Keep each commit focused and avoid including unrelated generated or local
+   files.
+
+| Change | Minimum verification |
 | --- | --- |
-| `make setup` | One-time project initialisation |
-| `make up` | Start / rebuild development containers |
-| `make down` | Stop development containers |
-| `make logs` | Tail API and website logs |
-| `make migrate` | Run Laravel database migrations |
-| `make generate` | Validate OpenAPI and regenerate clients |
-| `make test` | Run all test suites |
-| `make build` | Build all container images |
+| Contract or generator | `make contract-validate && make contract-generate && make test-clients` |
+| Snapshot tooling | `make test-contract && make snapshot-eq2-check` |
+| CLI | `make test-cli` |
+| Laravel API | `make test-api` |
+| Website | `make test-website` |
+| Cross-cutting work | `make test` |
 
-See the [Makefile Command Reference](#-makefile-command-reference) below for full details.
+Please open an issue or discussion before investing in a large new namespace,
+generator family, or architectural change. That keeps parallel efforts aligned
+and makes review faster.
 
-The Flutter app runs outside Docker. Android emulators use `http://10.0.2.2:8000` by default; override when needed:
+## Documentation
 
-```bash
-cd app
-flutter run --dart-define=API_BASE_URL=http://your-api-host:8000
-```
+- [Canonical contract](packages/contracts/darkclaw.openapi.yaml)
+- [Contract, generation, and snapshot rules](packages/contracts/README.md)
+- [EQ2 snapshot methodology](packages/contracts/snapshots/eq2/README.md)
+- [Generated Python client](packages/darkclaw-census-api-client-python/README.md)
+- [Generated TypeScript/Axios client](packages/darkclaw-census-api-client-typescript-axios/README.md)
+- [Generated Dart/Dio client](packages/darkclaw-census-api-client-dart-dio/README.md)
+- [CLI usage](cli/README.md)
+- [Website development](website/README.md)
+- [API development](api/README.md)
+- [Project history](CHANGELOG.md)
 
-### Production deployment
-
-When deploying to a server, run only the base Compose file to skip the development override. This activates the built-in nginx `proxy` service (which routes `/api/*` to Laravel and everything else to the website) and the Cloudflare `tunnel` service for external access. The external `moznet` network is not needed.
-
-```bash
-docker compose -f docker-compose.yaml up --build -d
-```
-
-Production secrets, TLS/tunnel routing, backups, and hardened Laravel runtime require deployment‑specific configuration.
-
----
-
-## 📖 Makefile Command Reference
-
-### `make setup`
-
-```bash
-./scripts/setup.sh
-```
-
-Full first-run initialisation. This is the command you run once after cloning:
-
-1. Copies `.env.example` → `.env` and `api/.env.example` → `api/.env` (if they don't already exist).
-2. Sets `APP_NAME` to the project directory name if not already defined (e.g. `~/Code/monotest` → `APP_NAME=monotest`). This drives container names, the internal Docker network, and local URLs.
-3. Generates a Laravel `APP_KEY` via OpenSSL and writes it to both env files.
-4. Runs `make generate` (validates the OpenAPI contract and regenerates Dart and TypeScript clients).
-5. Installs local dependencies — `npm install` for the website, `dart pub get` for the generated Dart client, and `flutter pub get` for the mobile app.
-6. Starts all development containers via `docker compose up --build -d`.
-7. Runs Laravel database migrations inside the API container.
-
----
-
-### `make generate`
-
-```bash
-./scripts/generate-clients.sh
-```
-
-Validates `packages/contracts/openapi.yaml` against the OpenAPI spec, then regenerates both API clients from scratch using the [OpenAPI Generator](https://openapi-generator.tech/) Docker image:
-
-* **Dart client** → `packages/api-client-dart/` (configured by `packages/contracts/dart.yaml`)
-* **TypeScript client** → `packages/api-client-typescript/` (configured by `packages/contracts/typescript-fetch.yaml`)
-
-After generation, the script patches the TypeScript `tsconfig.json` for Node 16 module resolution and suppresses `TODO` lint warnings in the Dart client.
-
-> **Note:** Generated clients under `packages/api-client-*` must not be edited manually — changes will be overwritten on the next run.
-
----
-
-### `make up`
-
-```bash
-docker compose up --build -d
-```
-
-Builds (or rebuilds) images and starts all development containers in detached mode. In local development, `docker-compose.override.yaml` is automatically applied, which:
-
-* Switches the API and website to development build targets (with hot-reload via volume mounts).
-* Connects containers to the external `moznet` network (provided by [moztopia/dugout](https://github.com/moztopia/dugout)).
-* Disables the built-in `proxy` and `tunnel` services.
-
----
-
-### `make down`
-
-```bash
-docker compose down
-```
-
-Stops and removes all containers for this project. Persistent volumes (database data, Redis data) are preserved.
-
----
-
-### `make logs`
-
-```bash
-docker compose logs --follow api website
-```
-
-Tails the combined log output of the `api` (Laravel) and `website` (React dev server) containers. Press `Ctrl+C` to stop following.
-
----
-
-### `make migrate`
-
-```bash
-docker compose exec api php artisan migrate
-```
-
-Runs pending Laravel database migrations inside the running API container. The containers must already be up (`make up`).
-
----
-
-### `make test`
-
-```bash
-make test-api
-make test-website
-make test-app
-```
-
-Runs all three test suites in sequence. Equivalent to calling `test-api`, `test-website`, and `test-app` individually. Fails fast — if any suite fails the remaining suites are skipped.
-
----
-
-### `make test-api`
-
-```bash
-docker compose run --rm api php artisan test
-```
-
-Spins up a disposable API container and runs the Laravel (PHPUnit) test suite against it.
-
----
-
-### `make test-website`
-
-```bash
-npm --prefix website test -- --run
-npm --prefix website run build
-```
-
-Runs the website unit tests, then performs a production build to catch any TypeScript or bundling errors.
-
----
-
-### `make test-app`
-
-```bash
-cd app && flutter analyze && flutter test
-```
-
-Runs the Dart static analyser (`flutter analyze`) and the Flutter test suite on the mobile app. This runs on the host machine, not inside Docker.
-
----
-
-### `make build`
-
-```bash
-docker compose build
-```
-
-Builds all container images without starting them. Useful for validating Dockerfile changes or pre-warming the build cache before a deploy.
+The generated package documentation is rebuilt with the clients. Durable
+project guidance belongs in the contract guide, component READMEs, or this
+README.

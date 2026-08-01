@@ -1,17 +1,8 @@
-import path from "path";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      "@app/api-client": path.resolve(
-        __dirname,
-        "../packages/api-client-typescript/src",
-      ),
-    },
-  },
   server: {
     host: "0.0.0.0",
     port: 3000,

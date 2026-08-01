@@ -1,0 +1,5364 @@
+{
+  "character_list": [
+    {
+      "account": {
+        "age": 361
+      },
+      "achievements": {
+        "achievement_list": [
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              }
+            ],
+            "id": 633507455
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 668424837
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2215113233
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2635907920
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2938806738
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3745535325
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3983947743
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 4100785822
+          }
+        ],
+        "completed": 0,
+        "points": 0,
+        "total_count": 2155,
+        "total_points": 41281
+      },
+      "alternateadvancements": {
+        "alternateadvancement_list": [],
+        "availablepoints": 0,
+        "focusavailablepoints": 0,
+        "focusspentpoints": 0,
+        "prestigeavailablepoints": 0,
+        "prestigespentpoints": 0,
+        "spentpoints": 0,
+        "tsavailablepoints": 0,
+        "tsprestigeavailablepoints": 0,
+        "tsprestigespentpoints": 0,
+        "tsspentpoints": 0,
+        "warderpoints": 0
+      },
+      "appearanceslot_list": [
+        {
+          "displayname": "Primary",
+          "id": 0,
+          "name": "primary"
+        },
+        {
+          "displayname": "Secondary",
+          "id": 1,
+          "name": "secondary"
+        },
+        {
+          "displayname": "Head",
+          "id": 2,
+          "name": "head"
+        },
+        {
+          "displayname": "Chest",
+          "id": 3,
+          "name": "chest"
+        },
+        {
+          "displayname": "Shoulders",
+          "id": 4,
+          "name": "shoulders"
+        },
+        {
+          "displayname": "Forearms",
+          "id": 5,
+          "name": "forearms"
+        },
+        {
+          "displayname": "Hands",
+          "id": 6,
+          "name": "hands"
+        },
+        {
+          "displayname": "Legs",
+          "id": 7,
+          "name": "legs"
+        },
+        {
+          "displayname": "Feet",
+          "id": 8,
+          "name": "feet"
+        },
+        {
+          "displayname": "Finger",
+          "id": 9,
+          "name": "left_ring"
+        },
+        {
+          "displayname": "Finger",
+          "id": 10,
+          "name": "right_ring"
+        },
+        {
+          "displayname": "Ear",
+          "id": 11,
+          "name": "ears"
+        },
+        {
+          "displayname": "Ear",
+          "id": 12,
+          "name": "ears2"
+        },
+        {
+          "displayname": "Neck",
+          "id": 13,
+          "name": "neck"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 14,
+          "name": "left_wrist"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 15,
+          "name": "right_wrist"
+        },
+        {
+          "displayname": "Ranged",
+          "id": 16,
+          "name": "ranged"
+        },
+        {
+          "displayname": "Ammo",
+          "id": 17,
+          "name": "ammo"
+        },
+        {
+          "displayname": "Waist",
+          "id": 18,
+          "name": "waist"
+        },
+        {
+          "displayname": "Cloak",
+          "id": 19,
+          "name": "cloak"
+        },
+        {
+          "displayname": "Charm",
+          "id": 20,
+          "name": "activate1"
+        },
+        {
+          "displayname": "Charm",
+          "id": 21,
+          "name": "activate2"
+        },
+        {
+          "displayname": "Food",
+          "id": 22,
+          "name": "food"
+        },
+        {
+          "displayname": "Drink",
+          "id": 23,
+          "name": "drink"
+        },
+        {
+          "displayname": "Mount Adornment",
+          "id": 24,
+          "name": "mount_adornment"
+        },
+        {
+          "displayname": "Mount Armor",
+          "id": 25,
+          "name": "mount_armor"
+        }
+      ],
+      "arena": {
+        "ctf": {
+          "captures": 0,
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "deathmatch": {
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "idol": {
+          "deaths": 0,
+          "destroyed": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        }
+      },
+      "bio": {},
+      "collections": {
+        "active": 0,
+        "complete": 0
+      },
+      "dbid": 2302583,
+      "displayname": "Zarenda (Butcherblock)",
+      "dungeon_item_list": [],
+      "dungeon_list": [],
+      "equipmentslot_list": [
+        {
+          "displayname": "Primary",
+          "id": 0,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3386753245
+          },
+          "name": "primary"
+        },
+        {
+          "displayname": "Secondary",
+          "id": 1,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2092422257
+          },
+          "name": "secondary"
+        },
+        {
+          "displayname": "Head",
+          "id": 2,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1828180465
+          },
+          "name": "head"
+        },
+        {
+          "displayname": "Chest",
+          "id": 3,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 445531640
+          },
+          "name": "chest"
+        },
+        {
+          "displayname": "Shoulders",
+          "id": 4,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3452259792
+          },
+          "name": "shoulders"
+        },
+        {
+          "displayname": "Forearms",
+          "id": 5,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1761638657
+          },
+          "name": "forearms"
+        },
+        {
+          "displayname": "Hands",
+          "id": 6,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2279916983
+          },
+          "name": "hands"
+        },
+        {
+          "displayname": "Legs",
+          "id": 7,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1594646718
+          },
+          "name": "legs"
+        },
+        {
+          "displayname": "Feet",
+          "id": 8,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1720439363
+          },
+          "name": "feet"
+        },
+        {
+          "displayname": "Finger",
+          "id": 9,
+          "name": "left_ring"
+        },
+        {
+          "displayname": "Finger",
+          "id": 10,
+          "name": "right_ring"
+        },
+        {
+          "displayname": "Ear",
+          "id": 11,
+          "name": "ears"
+        },
+        {
+          "displayname": "Ear",
+          "id": 12,
+          "name": "ears2"
+        },
+        {
+          "displayname": "Neck",
+          "id": 13,
+          "name": "neck"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 14,
+          "name": "left_wrist"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 15,
+          "name": "right_wrist"
+        },
+        {
+          "displayname": "Ranged",
+          "id": 16,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3350133392
+          },
+          "name": "ranged"
+        },
+        {
+          "displayname": "Ammo",
+          "id": 17,
+          "item": {
+            "id": 1165675952
+          },
+          "name": "ammo"
+        },
+        {
+          "displayname": "Waist",
+          "id": 18,
+          "name": "waist"
+        },
+        {
+          "displayname": "Cloak",
+          "id": 19,
+          "name": "cloak"
+        },
+        {
+          "displayname": "Charm",
+          "id": 20,
+          "name": "activate1"
+        },
+        {
+          "displayname": "Charm",
+          "id": 21,
+          "name": "activate2"
+        },
+        {
+          "displayname": "Food",
+          "id": 22,
+          "item": {
+            "id": 2330290915
+          },
+          "name": "food"
+        },
+        {
+          "displayname": "Drink",
+          "id": 23,
+          "item": {
+            "id": 2116100626
+          },
+          "name": "drink"
+        },
+        {
+          "displayname": "Mount Adornment",
+          "id": 24,
+          "name": "mount_adornment"
+        },
+        {
+          "displayname": "Mount Armor",
+          "id": 25,
+          "name": "mount_armor"
+        }
+      ],
+      "experience": {
+        "adventureexpfornextlevel": 600.0,
+        "currentadventureexp": 45.0,
+        "currenttradeskillexp": 0.0,
+        "tradeskillexpfornextlevel": 400.0
+      },
+      "faction_list": [
+        {
+          "id": 1,
+          "value": 5000
+        },
+        {
+          "id": 2,
+          "value": -50000
+        },
+        {
+          "id": 3,
+          "value": -50000
+        },
+        {
+          "id": 4,
+          "value": 40000
+        },
+        {
+          "id": 5,
+          "value": -50000
+        },
+        {
+          "id": 6,
+          "value": -15000
+        },
+        {
+          "id": 7,
+          "value": 5000
+        }
+      ],
+      "house_list": [],
+      "id": 463858770551,
+      "language_list": [
+        {
+          "id": 13,
+          "name": "Kerran"
+        }
+      ],
+      "last_update": 1391348298.11628,
+      "locationdata": {
+        "bindzone": "None",
+        "coords": "-117.924271,-43.938358,-787.758789",
+        "homefaction": 4,
+        "world": "Butcherblock",
+        "worldid": 108,
+        "zonename": "Greater Faydark"
+      },
+      "name": {
+        "first": "Zarenda",
+        "first_lower": "zarenda",
+        "last": ""
+      },
+      "orderedalternateadvancement_list": [
+        {
+          "alternateadvancement_list": []
+        },
+        {
+          "alternateadvancement_list": []
+        },
+        {
+          "alternateadvancement_list": []
+        }
+      ],
+      "playedtime": 444,
+      "pvp": {
+        "city_kills": 0,
+        "death_streak": 0,
+        "deaths": 0,
+        "kill_streak": 0,
+        "last_killer": 4294967295,
+        "title_rank": 0,
+        "wild_kills": 0
+      },
+      "quests": {
+        "active": 2,
+        "complete": 0
+      },
+      "resists": {
+        "arcane": {
+          "base": 0,
+          "effective": 0
+        },
+        "elemental": {
+          "base": 0,
+          "effective": 2
+        },
+        "noxious": {
+          "base": 0,
+          "effective": 2
+        },
+        "physical": {
+          "base": 86,
+          "effective": 86
+        }
+      },
+      "secondarytradeskills": {
+        "adorning": {
+          "displayname": "adorning",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "tinkering": {
+          "displayname": "tinkering",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        }
+      },
+      "skills": {
+        "adorning": {
+          "displayname": "adorning",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "aggression": {
+          "displayname": "aggression",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "alcoholtolerance": {
+          "displayname": "alcoholtolerance",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "crushing": {
+          "displayname": "crushing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "defense": {
+          "displayname": "defense",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "deflection": {
+          "displayname": "deflection",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "disruption": {
+          "displayname": "disruption",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "fishing": {
+          "displayname": "fishing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "focus": {
+          "displayname": "focus",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "foresting": {
+          "displayname": "foresting",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "gathering": {
+          "displayname": "gathering",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "investigating": {
+          "displayname": "investigating",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "mining": {
+          "displayname": "mining",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ministration": {
+          "displayname": "ministration",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ordination": {
+          "displayname": "ordination",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "parry": {
+          "displayname": "parry",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "piercing": {
+          "displayname": "piercing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ranged": {
+          "displayname": "ranged",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "safefall": {
+          "displayname": "safefall",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "slashing": {
+          "displayname": "slashing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "subjugation": {
+          "displayname": "subjugation",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "swimming": {
+          "displayname": "swimming",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "tinkering": {
+          "displayname": "tinkering",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "tracking": {
+          "displayname": "tracking",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "transmuting": {
+          "displayname": "transmuting",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "trapping": {
+          "displayname": "trapping",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        }
+      },
+      "spell_list": [
+        3882514684,
+        931849420,
+        326850749,
+        2819204988,
+        1140325368,
+        4009409073,
+        1650835133,
+        710907186,
+        3411123966,
+        3370412379,
+        3158390042,
+        922736952,
+        1956152383,
+        2138192917,
+        3226537914,
+        2609494795,
+        2633252651
+      ],
+      "statistics": {
+        "deaths": {
+          "value": 0
+        },
+        "items_crafted": {
+          "value": 0
+        },
+        "kills": {
+          "value": 1
+        },
+        "kills_deaths_ratio": {
+          "value": 1.0
+        },
+        "max_magic_hit": {
+          "spell": 4294967295,
+          "value": 0
+        },
+        "max_melee_hit": {
+          "value": 4,
+          "weapon": 3386753245
+        },
+        "rare_harvests": {
+          "value": 0
+        }
+      },
+      "stats": {
+        "ability": {
+          "spelltimecastpct": 0.0,
+          "spelltimerecoverypct": 0.0,
+          "spelltimereusepct": 0.0,
+          "spelltimereusespellonly": 0.0
+        },
+        "agi": {
+          "base": 23,
+          "effective": 23
+        },
+        "combat": {
+          "abilitymod": 0.0,
+          "accuracy": 0.0,
+          "aeautoattackchance": 0.0,
+          "attackspeed": 0.0,
+          "baseavoidancebonus": 0.0,
+          "basemodifier": 0.0,
+          "blockchance": 0.0,
+          "critbonus": 0.0,
+          "critchance": 0.0,
+          "dissonancegainmod": 0.0,
+          "dissonanceregen": 0.0,
+          "doubleattackchance": 0.0,
+          "dps": 0.0,
+          "flurry": 0.0,
+          "hategainmod": 0.0,
+          "incombatdissonanceregen": 0.0,
+          "incombatsavageryregen": 0.0,
+          "lethality": 0.0,
+          "lethality_pvp": 0.0,
+          "maxsavagerylevel": 0.0,
+          "mitigation_arcane": 0.0,
+          "mitigation_arcane_pvp": 39.024391,
+          "mitigation_elemental": 3.145355,
+          "mitigation_elemental_pvp": 40.172604,
+          "mitigation_noxious": 4.149272,
+          "mitigation_noxious_pvp": 40.545403,
+          "mitigation_physical": 75.0,
+          "mitigation_physical_pvp": 75.0,
+          "outofcombatdissonanceregen": 0.0,
+          "outofcombatsavageryregen": 0.0,
+          "pvpcriticalmitigation": 0.0,
+          "pvptoughness": 0,
+          "savagerygainmod": 0.0,
+          "savageryregen": 0.0,
+          "spelldoubleattackchance": 0.0,
+          "strikethrough": 0.0,
+          "toughness": 0.0
+        },
+        "defense": {
+          "armor": 50,
+          "avoidance": 119,
+          "block": 648,
+          "parry": 50
+        },
+        "health": {
+          "max": 80,
+          "regen": 7
+        },
+        "int": {
+          "base": 15,
+          "effective": 15
+        },
+        "personal_status_points": 0,
+        "power": {
+          "max": 83,
+          "regen": 9
+        },
+        "runspeed": 0.0,
+        "sta": {
+          "base": 20,
+          "effective": 20
+        },
+        "str": {
+          "base": 22,
+          "effective": 22
+        },
+        "tradeskill": {
+          "craftquantitymult": 0.0,
+          "critfailuremod": 0.0,
+          "critsuccessmod": 0.0,
+          "durabilityadd": 0.0,
+          "durabilitymod": 0.0,
+          "excritfailuremod": 0.0,
+          "excritsuccessmod": 0.0,
+          "exdurabilityadd": 0.0,
+          "exdurabilitymod": 0.0,
+          "experimentationattempts": 0.0,
+          "exprogressadd": 0.0,
+          "exprogressmod": 0.0,
+          "exsuccessmod": 0.0,
+          "materialreturnperc": 0.0,
+          "progressadd": 0.0,
+          "progressmod": 0.0,
+          "rareharvestchance": 0.0,
+          "refinequantitymod": 0.0,
+          "successmod": 0.0
+        },
+        "weapon": {
+          "primarydelay": 1.85,
+          "primarymaxdamage": 5,
+          "primarymindamage": 2,
+          "rangeddelay": 4.5,
+          "rangedmaxdamage": 16,
+          "rangedmindamage": 7,
+          "secondarydelay": -1.0,
+          "secondarymaxdamage": -1,
+          "secondarymindamage": -1
+        },
+        "wis": {
+          "base": 20,
+          "effective": 20
+        }
+      },
+      "tradeskills": {
+        "unskilled": {
+          "level": 1
+        }
+      },
+      "ts": 1391348298.11628,
+      "type": {
+        "alignment": 0,
+        "birthdate_utc": 1391347842,
+        "class": "Paladin",
+        "classid": 10,
+        "deity": "None",
+        "gender": "female",
+        "level": 1,
+        "race": "Kerran",
+        "raceid": 11
+      },
+      "version": 2,
+      "visible": 1
+    },
+    {
+      "account": {
+        "age": 360
+      },
+      "achievements": {
+        "achievement_list": [
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 668424837
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2215113233
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2635907920
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2938806738
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3745535325
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3983947743
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 4100785822
+          }
+        ],
+        "completed": 0,
+        "points": 0,
+        "total_count": 1365,
+        "total_points": 31975
+      },
+      "alternateadvancements": {
+        "availablepoints": 0,
+        "spentpoints": 0
+      },
+      "appearanceslot_list": [],
+      "arena": {
+        "ctf": {
+          "captures": 0,
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "deathmatch": {
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "idol": {
+          "deaths": 0,
+          "destroyed": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        }
+      },
+      "bio": {},
+      "collections": {
+        "active": 0,
+        "complete": 0
+      },
+      "dbid": 3407432,
+      "displayname": "Freeporter (Freeport)",
+      "equipmentslot_list": [
+        {
+          "id": 0,
+          "item": {
+            "id": 1944806100
+          },
+          "name": "primary"
+        },
+        {
+          "id": 3,
+          "item": {
+            "id": 696270650
+          },
+          "name": "chest"
+        },
+        {
+          "id": 7,
+          "item": {
+            "id": 3488974636
+          },
+          "name": "legs"
+        },
+        {
+          "id": 8,
+          "item": {
+            "id": 120838872
+          },
+          "name": "feet"
+        },
+        {
+          "id": 16,
+          "item": {
+            "id": 588121914
+          },
+          "name": "ranged"
+        },
+        {
+          "id": 22,
+          "item": {
+            "id": 2330290915
+          },
+          "name": "food"
+        },
+        {
+          "id": 23,
+          "item": {
+            "id": 2116100626
+          },
+          "name": "drink"
+        }
+      ],
+      "experience": {
+        "adventureexpfornextlevel": 600.0,
+        "currentadventureexp": 0.0,
+        "currenttradeskillexp": 0.0,
+        "tradeskillexpfornextlevel": 400.0
+      },
+      "faction_list": [
+        {
+          "id": 1,
+          "value": 5000
+        },
+        {
+          "id": 2,
+          "value": -50000
+        },
+        {
+          "id": 3,
+          "value": -50000
+        },
+        {
+          "id": 4,
+          "value": 5000
+        },
+        {
+          "id": 5,
+          "value": -50000
+        },
+        {
+          "id": 6,
+          "value": -15000
+        },
+        {
+          "id": 7,
+          "value": 40000
+        }
+      ],
+      "house_list": [],
+      "id": 2168961891912,
+      "language_list": [
+        {
+          "id": 4,
+          "name": "Erudian"
+        }
+      ],
+      "last_update": 1328910680,
+      "locationdata": {
+        "bindzone": "None",
+        "coords": "-230.713608,34.639824,-726.201843",
+        "homefaction": 7,
+        "world": "Freeport",
+        "worldid": 505,
+        "zonename": "Frostfang Sea"
+      },
+      "name": {
+        "first": "Freeporter",
+        "first_lower": "freeporter",
+        "last": ""
+      },
+      "playedtime": 200,
+      "pvp": {
+        "city_kills": 0,
+        "death_streak": 0,
+        "deaths": 0,
+        "kill_streak": 0,
+        "last_killer": 4294967295,
+        "title_rank": 0,
+        "wild_kills": 0
+      },
+      "quests": {
+        "active": 0,
+        "complete": 0
+      },
+      "resists": {
+        "arcane": {
+          "base": 0,
+          "effective": 3
+        },
+        "elemental": {
+          "base": 0,
+          "effective": 1
+        },
+        "noxious": {
+          "base": 0,
+          "effective": 0
+        },
+        "physical": {
+          "base": 12,
+          "effective": 12
+        }
+      },
+      "secondarytradeskills": {
+        "adorning": {
+          "value": 0
+        },
+        "tinkering": {
+          "value": 0
+        }
+      },
+      "skills": {
+        "adorning": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "alcoholtolerance": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "crushing": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "defense": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "deflection": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "disruption": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "fishing": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "focus": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "foresting": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "gathering": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "investigating": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "mining": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ministration": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ordination": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "parry": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "piercing": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "subjugation": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "swimming": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "tinkering": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "transmuting": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "trapping": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 5,
+          "totalvalue": 5,
+          "value": 0
+        }
+      },
+      "spell_list": [
+        158243323,
+        3882514684,
+        931849420,
+        4009409073,
+        1650835133,
+        3411123966,
+        666198119,
+        3158390042,
+        4176914448,
+        1956152383,
+        2138192917,
+        3226537914,
+        2609494795,
+        307179273,
+        3326162469,
+        730429078
+      ],
+      "statistics": {
+        "deaths": {
+          "value": 0
+        },
+        "items_crafted": {
+          "value": 0
+        },
+        "kills": {
+          "value": 0
+        },
+        "kills_deaths_ratio": {
+          "value": 0.0
+        },
+        "max_magic_hit": {
+          "spell": 4294967295,
+          "value": 0
+        },
+        "max_melee_hit": {
+          "value": 0,
+          "weapon": 4294967295
+        },
+        "rare_harvests": {
+          "value": 0
+        }
+      },
+      "stats": {
+        "ability": {
+          "spelltimecastpct": 0.0,
+          "spelltimerecoverypct": 0.0,
+          "spelltimereusepct": 0.0,
+          "spelltimereusespellonly": 0.0
+        },
+        "agi": {
+          "base": 18,
+          "effective": 18
+        },
+        "combat": {
+          "accuracy": 0.0,
+          "aeautoattackchance": 0.0,
+          "attackspeed": 0.0,
+          "basemodifier": 0.0,
+          "blockchance": 0.0,
+          "combathpregenppt": 0.0,
+          "critbonus": 0.0,
+          "critchance": 0.0,
+          "criticalmitigation": 0.0,
+          "doubleattackchance": 0.0,
+          "dps": 0.0,
+          "hategainmod": 0.0,
+          "pvpbasemodifier": 0.0,
+          "pvpcritbonus": 0.0,
+          "pvpdoubleattackchance": 0.0,
+          "pvptoughness": 0,
+          "strikethrough": 0.0
+        },
+        "defense": {
+          "armor": 240,
+          "avoidance": 72,
+          "block": 0,
+          "parry": 0
+        },
+        "health": {
+          "max": 65,
+          "regen": 7
+        },
+        "int": {
+          "base": 30,
+          "effective": 30
+        },
+        "personal_status_points": 0,
+        "power": {
+          "max": 107,
+          "regen": 10
+        },
+        "runspeed": 0.0,
+        "sta": {
+          "base": 15,
+          "effective": 15
+        },
+        "str": {
+          "base": 12,
+          "effective": 12
+        },
+        "tradeskill": {
+          "critfailuremod": 0.0,
+          "critsuccessmod": 0.0,
+          "durabilityadd": 0.0,
+          "durabilitymod": 0.0,
+          "progressadd": 0.0,
+          "progressmod": 0.0,
+          "rareharvestchance": 0.0,
+          "successmod": 0.0
+        },
+        "weapon": {
+          "primarydelay": 2.2,
+          "primarymaxdamage": 10,
+          "primarymindamage": 3,
+          "rangeddelay": 4.0,
+          "rangedmaxdamage": 16,
+          "rangedmindamage": 3,
+          "secondarydelay": -1.0,
+          "secondarymaxdamage": -1,
+          "secondarymindamage": -1
+        },
+        "wis": {
+          "base": 25,
+          "effective": 25
+        }
+      },
+      "tradeskills": {
+        "unskilled": {
+          "level": 1
+        }
+      },
+      "ts": 1328910680.5477,
+      "type": {
+        "alignment": 0,
+        "birthdate_utc": 1322408157,
+        "class": "Wizard",
+        "classid": 23,
+        "deity": "None",
+        "gender": "male",
+        "level": 1,
+        "race": "Erudite",
+        "raceid": 3
+      },
+      "version": 1,
+      "visible": 1
+    },
+    {
+      "account": {
+        "age": 1174
+      },
+      "achievements": {
+        "achievement_list": [
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 668424837
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 824348949
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 908802505
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 943127313
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              }
+            ],
+            "id": 1120754080
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1168843957
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1213239517
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 1226470357
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 1261827798
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1318801974
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1524973363
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1546583512
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1810894314
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 1832636161
+          },
+          {
+            "completed_timestamp": 1393110053,
+            "id": 1932826838
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2215113233
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 2594075735
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2635907920
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 2643975307
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2938806738
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 3164787835
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 3254371681
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 3294060929
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 27
+              }
+            ],
+            "id": 3492351108
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 3545000591
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 3582437476
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3745535325
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3983947743
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 4042061752
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 4100785822
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 3
+              }
+            ],
+            "id": 4129764691
+          }
+        ],
+        "completed": 1,
+        "points": 5,
+        "total_count": 2158,
+        "total_points": 41356
+      },
+      "alternateadvancements": {
+        "alternateadvancement_list": [],
+        "availablepoints": 0,
+        "focusavailablepoints": 0,
+        "focusspentpoints": 0,
+        "prestigeavailablepoints": 0,
+        "prestigespentpoints": 0,
+        "spentpoints": 0,
+        "tsavailablepoints": 0,
+        "tsprestigeavailablepoints": 0,
+        "tsprestigespentpoints": 0,
+        "tsspentpoints": 0,
+        "warderpoints": 0
+      },
+      "appearanceslot_list": [
+        {
+          "displayname": "Primary",
+          "id": 0,
+          "name": "primary"
+        },
+        {
+          "displayname": "Secondary",
+          "id": 1,
+          "name": "secondary"
+        },
+        {
+          "displayname": "Head",
+          "id": 2,
+          "name": "head"
+        },
+        {
+          "displayname": "Chest",
+          "id": 3,
+          "name": "chest"
+        },
+        {
+          "displayname": "Shoulders",
+          "id": 4,
+          "name": "shoulders"
+        },
+        {
+          "displayname": "Forearms",
+          "id": 5,
+          "name": "forearms"
+        },
+        {
+          "displayname": "Hands",
+          "id": 6,
+          "name": "hands"
+        },
+        {
+          "displayname": "Legs",
+          "id": 7,
+          "name": "legs"
+        },
+        {
+          "displayname": "Feet",
+          "id": 8,
+          "name": "feet"
+        },
+        {
+          "displayname": "Finger",
+          "id": 9,
+          "name": "left_ring"
+        },
+        {
+          "displayname": "Finger",
+          "id": 10,
+          "name": "right_ring"
+        },
+        {
+          "displayname": "Ear",
+          "id": 11,
+          "name": "ears"
+        },
+        {
+          "displayname": "Ear",
+          "id": 12,
+          "name": "ears2"
+        },
+        {
+          "displayname": "Neck",
+          "id": 13,
+          "name": "neck"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 14,
+          "name": "left_wrist"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 15,
+          "name": "right_wrist"
+        },
+        {
+          "displayname": "Ranged",
+          "id": 16,
+          "name": "ranged"
+        },
+        {
+          "displayname": "Ammo",
+          "id": 17,
+          "name": "ammo"
+        },
+        {
+          "displayname": "Waist",
+          "id": 18,
+          "name": "waist"
+        },
+        {
+          "displayname": "Cloak",
+          "id": 19,
+          "name": "cloak"
+        },
+        {
+          "displayname": "Charm",
+          "id": 20,
+          "name": "activate1"
+        },
+        {
+          "displayname": "Charm",
+          "id": 21,
+          "name": "activate2"
+        },
+        {
+          "displayname": "Food",
+          "id": 22,
+          "name": "food"
+        },
+        {
+          "displayname": "Drink",
+          "id": 23,
+          "name": "drink"
+        },
+        {
+          "displayname": "Mount Adornment",
+          "id": 24,
+          "name": "mount_adornment"
+        },
+        {
+          "displayname": "Mount Armor",
+          "id": 25,
+          "name": "mount_armor"
+        }
+      ],
+      "arena": {
+        "ctf": {
+          "captures": 0,
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "deathmatch": {
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "idol": {
+          "deaths": 0,
+          "destroyed": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        }
+      },
+      "bio": {},
+      "collections": {
+        "active": 0,
+        "complete": 0
+      },
+      "dbid": 2309421,
+      "displayname": "Murrk (Butcherblock)",
+      "dungeon_item_list": [],
+      "dungeon_list": [],
+      "equipmentslot_list": [
+        {
+          "displayname": "Primary",
+          "id": 0,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1971117465
+          },
+          "name": "primary"
+        },
+        {
+          "displayname": "Secondary",
+          "id": 1,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2092422257
+          },
+          "name": "secondary"
+        },
+        {
+          "displayname": "Head",
+          "id": 2,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1828180465
+          },
+          "name": "head"
+        },
+        {
+          "displayname": "Chest",
+          "id": 3,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 445531640
+          },
+          "name": "chest"
+        },
+        {
+          "displayname": "Shoulders",
+          "id": 4,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3452259792
+          },
+          "name": "shoulders"
+        },
+        {
+          "displayname": "Forearms",
+          "id": 5,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1761638657
+          },
+          "name": "forearms"
+        },
+        {
+          "displayname": "Hands",
+          "id": 6,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2279916983
+          },
+          "name": "hands"
+        },
+        {
+          "displayname": "Legs",
+          "id": 7,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1594646718
+          },
+          "name": "legs"
+        },
+        {
+          "displayname": "Feet",
+          "id": 8,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1720439363
+          },
+          "name": "feet"
+        },
+        {
+          "displayname": "Finger",
+          "id": 9,
+          "name": "left_ring"
+        },
+        {
+          "displayname": "Finger",
+          "id": 10,
+          "name": "right_ring"
+        },
+        {
+          "displayname": "Ear",
+          "id": 11,
+          "name": "ears"
+        },
+        {
+          "displayname": "Ear",
+          "id": 12,
+          "name": "ears2"
+        },
+        {
+          "displayname": "Neck",
+          "id": 13,
+          "name": "neck"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 14,
+          "name": "left_wrist"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 15,
+          "name": "right_wrist"
+        },
+        {
+          "displayname": "Ranged",
+          "id": 16,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2184209066
+          },
+          "name": "ranged"
+        },
+        {
+          "displayname": "Ammo",
+          "id": 17,
+          "item": {
+            "id": 1165675952
+          },
+          "name": "ammo"
+        },
+        {
+          "displayname": "Waist",
+          "id": 18,
+          "name": "waist"
+        },
+        {
+          "displayname": "Cloak",
+          "id": 19,
+          "name": "cloak"
+        },
+        {
+          "displayname": "Charm",
+          "id": 20,
+          "name": "activate1"
+        },
+        {
+          "displayname": "Charm",
+          "id": 21,
+          "name": "activate2"
+        },
+        {
+          "displayname": "Food",
+          "id": 22,
+          "item": {
+            "id": 2330290915
+          },
+          "name": "food"
+        },
+        {
+          "displayname": "Drink",
+          "id": 23,
+          "item": {
+            "id": 2116100626
+          },
+          "name": "drink"
+        },
+        {
+          "displayname": "Mount Adornment",
+          "id": 24,
+          "name": "mount_adornment"
+        },
+        {
+          "displayname": "Mount Armor",
+          "id": 25,
+          "name": "mount_armor"
+        }
+      ],
+      "experience": {
+        "adventureexpfornextlevel": 1400.0,
+        "currentadventureexp": 921.0,
+        "currenttradeskillexp": 0.0,
+        "tradeskillexpfornextlevel": 400.0
+      },
+      "faction_list": [
+        {
+          "id": 1,
+          "value": 5000
+        },
+        {
+          "id": 2,
+          "value": -50000
+        },
+        {
+          "id": 3,
+          "value": -50000
+        },
+        {
+          "id": 4,
+          "value": 5000
+        },
+        {
+          "id": 5,
+          "value": -50000
+        },
+        {
+          "id": 6,
+          "value": -15000
+        },
+        {
+          "id": 7,
+          "value": 40000
+        }
+      ],
+      "house_list": [],
+      "id": 463858777389,
+      "language_list": [
+        {
+          "id": 5,
+          "name": "Guktan"
+        }
+      ],
+      "last_update": 1393110184.664061,
+      "locationdata": {
+        "bindzone": "None",
+        "coords": "-312.829956,40.492062,-782.165344",
+        "homefaction": 7,
+        "world": "Butcherblock",
+        "worldid": 108,
+        "zonename": "Frostfang Sea"
+      },
+      "name": {
+        "first": "Murrk",
+        "first_lower": "murrk",
+        "last": ""
+      },
+      "orderedalternateadvancement_list": [
+        {
+          "alternateadvancement_list": []
+        },
+        {
+          "alternateadvancement_list": []
+        },
+        {
+          "alternateadvancement_list": []
+        }
+      ],
+      "playedtime": 1608,
+      "pvp": {
+        "city_kills": 0,
+        "death_streak": 0,
+        "deaths": 0,
+        "kill_streak": 0,
+        "last_killer": 4294967295,
+        "title_rank": 0,
+        "wild_kills": 0
+      },
+      "quests": {
+        "active": 4,
+        "complete": 3
+      },
+      "resists": {
+        "arcane": {
+          "base": 0,
+          "effective": 8
+        },
+        "elemental": {
+          "base": 0,
+          "effective": 0
+        },
+        "noxious": {
+          "base": 0,
+          "effective": 6
+        },
+        "physical": {
+          "base": 86,
+          "effective": 86
+        }
+      },
+      "secondarytradeskills": {
+        "adorning": {
+          "displayname": "adorning",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "tinkering": {
+          "displayname": "tinkering",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        }
+      },
+      "skills": {
+        "adorning": {
+          "displayname": "adorning",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "aggression": {
+          "displayname": "aggression",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "alcoholtolerance": {
+          "displayname": "alcoholtolerance",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "crushing": {
+          "displayname": "crushing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "defense": {
+          "displayname": "defense",
+          "earnedvalue": 20,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 20,
+          "value": 15
+        },
+        "deflection": {
+          "displayname": "deflection",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "disruption": {
+          "displayname": "disruption",
+          "earnedvalue": 12,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 12,
+          "value": 7
+        },
+        "fishing": {
+          "displayname": "fishing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "focus": {
+          "displayname": "focus",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "foresting": {
+          "displayname": "foresting",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "gathering": {
+          "displayname": "gathering",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "investigating": {
+          "displayname": "investigating",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "mining": {
+          "displayname": "mining",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ministration": {
+          "displayname": "ministration",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ordination": {
+          "displayname": "ordination",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "parry": {
+          "displayname": "parry",
+          "earnedvalue": 20,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 20,
+          "value": 15
+        },
+        "piercing": {
+          "displayname": "piercing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ranged": {
+          "displayname": "ranged",
+          "earnedvalue": 6,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 6,
+          "value": 1
+        },
+        "slashing": {
+          "displayname": "slashing",
+          "earnedvalue": 20,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 20,
+          "value": 15
+        },
+        "subjugation": {
+          "displayname": "subjugation",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "swimming": {
+          "displayname": "swimming",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "tinkering": {
+          "displayname": "tinkering",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "transmuting": {
+          "displayname": "transmuting",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "trapping": {
+          "displayname": "trapping",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 20,
+          "totalvalue": 5,
+          "value": 0
+        }
+      },
+      "spell_list": [
+        2589747479,
+        158243323,
+        3882514684,
+        931849420,
+        326850749,
+        2361378709,
+        1276169562,
+        4009409073,
+        1650835133,
+        2872722539,
+        891718336,
+        3411123966,
+        3218478927,
+        3370412379,
+        3158390042,
+        1308756391,
+        1956152383,
+        3020614722,
+        2138192917,
+        3226537914,
+        2609494795
+      ],
+      "statistics": {
+        "deaths": {
+          "value": 0
+        },
+        "items_crafted": {
+          "value": 0
+        },
+        "kills": {
+          "value": 39
+        },
+        "kills_deaths_ratio": {
+          "value": 39.0
+        },
+        "max_magic_hit": {
+          "spell": 99604163,
+          "value": 11
+        },
+        "max_melee_hit": {
+          "value": 64,
+          "weapon": 1971117465
+        },
+        "rare_harvests": {
+          "value": 0
+        }
+      },
+      "stats": {
+        "ability": {
+          "spelltimecastpct": 0.0,
+          "spelltimerecoverypct": 0.0,
+          "spelltimereusepct": 0.0,
+          "spelltimereusespellonly": 0.0
+        },
+        "agi": {
+          "base": 26,
+          "effective": 26
+        },
+        "combat": {
+          "abilitymod": 0.0,
+          "accuracy": 0.0,
+          "aeautoattackchance": 0.0,
+          "attackspeed": 0.0,
+          "baseavoidancebonus": 0.0,
+          "basemodifier": 0.0,
+          "blockchance": 0.0,
+          "critbonus": 0.0,
+          "critchance": 0.0,
+          "dissonancegainmod": 0.0,
+          "dissonanceregen": 0.0,
+          "doubleattackchance": 0.0,
+          "dps": 0.0,
+          "flurry": 0.0,
+          "hategainmod": 0.0,
+          "incombatdissonanceregen": 0.0,
+          "incombatsavageryregen": 0.0,
+          "lethality": 0.0,
+          "lethality_pvp": 0.0,
+          "maxsavagerylevel": 0.0,
+          "mitigation_arcane": 4.149272,
+          "mitigation_arcane_pvp": 40.545403,
+          "mitigation_elemental": 0.0,
+          "mitigation_elemental_pvp": 39.024391,
+          "mitigation_noxious": 3.145355,
+          "mitigation_noxious_pvp": 40.172604,
+          "mitigation_physical": 25.820648,
+          "mitigation_physical_pvp": 49.425579,
+          "outofcombatdissonanceregen": 0.0,
+          "outofcombatsavageryregen": 0.0,
+          "pvpcriticalmitigation": 0.0,
+          "pvptoughness": 0,
+          "savagerygainmod": 0.0,
+          "savageryregen": 0.0,
+          "spelldoubleattackchance": 0.0,
+          "strikethrough": 0.0,
+          "toughness": 0.0
+        },
+        "defense": {
+          "armor": 50,
+          "avoidance": 114,
+          "block": 41,
+          "parry": 50
+        },
+        "health": {
+          "max": 135,
+          "regen": 10
+        },
+        "int": {
+          "base": 20,
+          "effective": 20
+        },
+        "personal_status_points": 0,
+        "power": {
+          "max": 117,
+          "regen": 11
+        },
+        "runspeed": 0.0,
+        "sta": {
+          "base": 23,
+          "effective": 31
+        },
+        "str": {
+          "base": 21,
+          "effective": 29
+        },
+        "tradeskill": {
+          "craftquantitymult": 0.0,
+          "critfailuremod": 0.0,
+          "critsuccessmod": 0.0,
+          "durabilityadd": 0.0,
+          "durabilitymod": 0.0,
+          "excritfailuremod": 0.0,
+          "excritsuccessmod": 0.0,
+          "exdurabilityadd": 0.0,
+          "exdurabilitymod": 0.0,
+          "experimentationattempts": 0.0,
+          "exprogressadd": 0.0,
+          "exprogressmod": 0.0,
+          "exsuccessmod": 0.0,
+          "materialreturnperc": 0.0,
+          "progressadd": 0.0,
+          "progressmod": 0.0,
+          "rareharvestchance": 0.0,
+          "refinequantitymod": 0.0,
+          "successmod": 0.0
+        },
+        "weapon": {
+          "primarydelay": 6.0,
+          "primarymaxdamage": 71,
+          "primarymindamage": 18,
+          "rangeddelay": 9.0,
+          "rangedmaxdamage": 149,
+          "rangedmindamage": 39,
+          "secondarydelay": -1.0,
+          "secondarymaxdamage": -1,
+          "secondarymindamage": -1
+        },
+        "wis": {
+          "base": 20,
+          "effective": 24
+        }
+      },
+      "tradeskills": {
+        "unskilled": {
+          "level": 1
+        }
+      },
+      "ts": 1393110184.664061,
+      "type": {
+        "alignment": 0,
+        "birthdate_utc": 1393108544,
+        "class": "Paladin",
+        "classid": 10,
+        "deity": "None",
+        "gender": "male",
+        "level": 4,
+        "race": "Froglok",
+        "raceid": 4
+      },
+      "version": 2,
+      "visible": 1
+    },
+    {
+      "account": {
+        "age": 366
+      },
+      "achievements": {
+        "achievement_list": [
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 668424837
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1168843957
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1213239517
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1318801974
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 1329682798
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1524973363
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1546583512
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1810894314
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 1832636161
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 2031917930
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2215113233
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 2288792269
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 2577568847
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 2594075735
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2635907920
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 2643975307
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 2662022291
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2938806738
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 3223572025
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              }
+            ],
+            "id": 3373531097
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 3545000591
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 3562906428
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3745535325
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 83
+              }
+            ],
+            "id": 3868450387
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3983947743
+          },
+          {
+            "completed_timestamp": 1321831488,
+            "id": 4035072639
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 4042061752
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 4100785822
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 4
+              }
+            ],
+            "id": 4129764691
+          }
+        ],
+        "completed": 1,
+        "points": 5,
+        "total_count": 1365,
+        "total_points": 31975
+      },
+      "alternateadvancements": {
+        "availablepoints": 0,
+        "spentpoints": 0
+      },
+      "appearanceslot_list": [],
+      "arena": {
+        "ctf": {
+          "captures": 0,
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "deathmatch": {
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "idol": {
+          "deaths": 0,
+          "destroyed": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        }
+      },
+      "bio": {},
+      "collections": {
+        "active": 0,
+        "complete": 0
+      },
+      "dbid": 3394853,
+      "displayname": "Jujounig (Freeport)",
+      "equipmentslot_list": [
+        {
+          "id": 0,
+          "item": {
+            "id": 2628267619
+          },
+          "name": "primary"
+        },
+        {
+          "id": 1,
+          "item": {
+            "id": 2628267619
+          },
+          "name": "secondary"
+        },
+        {
+          "id": 3,
+          "item": {
+            "id": 2507954993
+          },
+          "name": "chest"
+        },
+        {
+          "id": 6,
+          "item": {
+            "id": 702790789
+          },
+          "name": "hands"
+        },
+        {
+          "id": 7,
+          "item": {
+            "id": 2648961102
+          },
+          "name": "legs"
+        },
+        {
+          "id": 8,
+          "item": {
+            "id": 601885514
+          },
+          "name": "feet"
+        },
+        {
+          "id": 9,
+          "item": {
+            "id": 2461158402
+          },
+          "name": "left_ring"
+        },
+        {
+          "id": 11,
+          "item": {
+            "id": 861090765
+          },
+          "name": "ears"
+        },
+        {
+          "id": 14,
+          "item": {
+            "id": 68710597
+          },
+          "name": "left_wrist"
+        },
+        {
+          "id": 15,
+          "item": {
+            "id": 68710597
+          },
+          "name": "right_wrist"
+        },
+        {
+          "id": 16,
+          "item": {
+            "id": 3462337419
+          },
+          "name": "ranged"
+        },
+        {
+          "id": 17,
+          "item": {
+            "id": 4087813796
+          },
+          "name": "ammo"
+        },
+        {
+          "id": 18,
+          "item": {
+            "id": 1271794514
+          },
+          "name": "waist"
+        },
+        {
+          "id": 20,
+          "item": {
+            "id": 2636378519
+          },
+          "name": "activate1"
+        },
+        {
+          "id": 22,
+          "item": {
+            "id": 2330290915
+          },
+          "name": "food"
+        },
+        {
+          "id": 23,
+          "item": {
+            "id": 2116100626
+          },
+          "name": "drink"
+        }
+      ],
+      "experience": {
+        "adventureexpfornextlevel": 2200.0,
+        "currentadventureexp": 1060.0,
+        "currenttradeskillexp": 0.0,
+        "tradeskillexpfornextlevel": 400.0
+      },
+      "faction_list": [
+        {
+          "id": 1,
+          "value": -50000
+        },
+        {
+          "id": 2,
+          "value": 5000
+        },
+        {
+          "id": 3,
+          "value": -50000
+        },
+        {
+          "id": 4,
+          "value": -50000
+        },
+        {
+          "id": 5,
+          "value": 40000
+        },
+        {
+          "id": 6,
+          "value": -15000
+        },
+        {
+          "id": 7,
+          "value": -50000
+        }
+      ],
+      "house_list": [],
+      "id": 2168961879333,
+      "language_list": [
+        {
+          "id": 7,
+          "name": "Ayr'Dal"
+        }
+      ],
+      "last_update": 1328910680,
+      "locationdata": {
+        "bindzone": "None",
+        "coords": "-488.444458,-53.472111,329.264435",
+        "homefaction": 5,
+        "world": "Freeport",
+        "worldid": 505,
+        "zonename": "Darklight Wood"
+      },
+      "name": {
+        "first": "Jujounig",
+        "first_lower": "jujounig",
+        "last": ""
+      },
+      "playedtime": 1357,
+      "pvp": {
+        "city_kills": 0,
+        "death_streak": 0,
+        "deaths": 0,
+        "kill_streak": 0,
+        "last_killer": 4294967295,
+        "title_rank": 0,
+        "wild_kills": 0
+      },
+      "quests": {
+        "active": 3,
+        "complete": 4
+      },
+      "resists": {
+        "arcane": {
+          "base": 0,
+          "effective": 6
+        },
+        "elemental": {
+          "base": 0,
+          "effective": 9
+        },
+        "noxious": {
+          "base": 0,
+          "effective": 9
+        },
+        "physical": {
+          "base": 55,
+          "effective": 55
+        }
+      },
+      "secondarytradeskills": {
+        "adorning": {
+          "value": 0
+        },
+        "tinkering": {
+          "value": 0
+        }
+      },
+      "skills": {
+        "adorning": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "alcoholtolerance": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "crushing": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "defense": {
+          "earnedvalue": 30,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 30,
+          "value": 25
+        },
+        "deflection": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "disarmtrap": {
+          "earnedvalue": 10,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 10,
+          "value": 5
+        },
+        "fishing": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "focus": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "foresting": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "gathering": {
+          "earnedvalue": 10,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 10,
+          "value": 5
+        },
+        "investigating": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "mining": {
+          "earnedvalue": 8,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 8,
+          "value": 3
+        },
+        "parry": {
+          "earnedvalue": 30,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 30,
+          "value": 25
+        },
+        "piercing": {
+          "earnedvalue": 5,
+          "effectvalue": 2,
+          "maxvalue": 30,
+          "totalvalue": 7,
+          "value": 0
+        },
+        "poisoning": {
+          "earnedvalue": 30,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 30,
+          "value": 0
+        },
+        "ranged": {
+          "earnedvalue": 30,
+          "effectvalue": 2,
+          "maxvalue": 30,
+          "totalvalue": 32,
+          "value": 25
+        },
+        "safefall": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "slashing": {
+          "earnedvalue": 30,
+          "effectvalue": 2,
+          "maxvalue": 30,
+          "totalvalue": 32,
+          "value": 25
+        },
+        "swimming": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "tinkering": {
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "tracking": {
+          "earnedvalue": 30,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 30,
+          "value": 0
+        },
+        "transmuting": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "trapping": {
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 30,
+          "totalvalue": 5,
+          "value": 0
+        }
+      },
+      "spell_list": [
+        2056297704,
+        574782159,
+        3882514684,
+        4007929094,
+        3348830723,
+        721108235,
+        3505155196,
+        782469165,
+        931849420,
+        1428752164,
+        2819204988,
+        2194667471,
+        4261504045,
+        4009409073,
+        2175925551,
+        1650835133,
+        3411123966,
+        1221603888,
+        1309989725,
+        3158390042,
+        3957986951,
+        1956152383,
+        2138192917,
+        3226537914,
+        2609494795
+      ],
+      "statistics": {
+        "deaths": {
+          "value": 0
+        },
+        "items_crafted": {
+          "value": 0
+        },
+        "kills": {
+          "value": 84
+        },
+        "kills_deaths_ratio": {
+          "value": 84.0
+        },
+        "max_magic_hit": {
+          "spell": 4294967295,
+          "value": 0
+        },
+        "max_melee_hit": {
+          "value": 45,
+          "weapon": 2369890898
+        },
+        "rare_harvests": {
+          "value": 0
+        }
+      },
+      "stats": {
+        "ability": {
+          "spelltimecastpct": 0.0,
+          "spelltimerecoverypct": 0.0,
+          "spelltimereusepct": 0.0,
+          "spelltimereusespellonly": 0.0
+        },
+        "agi": {
+          "base": 30,
+          "effective": 67
+        },
+        "combat": {
+          "accuracy": 0.0,
+          "aeautoattackchance": 0.0,
+          "attackspeed": 0.0,
+          "basemodifier": 0.0,
+          "blockchance": 0.0,
+          "combathpregenppt": 0.0,
+          "critbonus": 0.0,
+          "critchance": 0.0,
+          "criticalmitigation": 0.0,
+          "doubleattackchance": 0.0,
+          "dps": 0.0,
+          "hategainmod": 0.0,
+          "pvpbasemodifier": 0.0,
+          "pvpcritbonus": 0.0,
+          "pvpdoubleattackchance": 0.0,
+          "pvptoughness": 0,
+          "strikethrough": 0.0
+        },
+        "defense": {
+          "armor": 100,
+          "avoidance": 225,
+          "block": 0,
+          "parry": 50
+        },
+        "health": {
+          "max": 206,
+          "regen": 12
+        },
+        "int": {
+          "base": 21,
+          "effective": 21
+        },
+        "personal_status_points": 0,
+        "power": {
+          "max": 254,
+          "regen": 16
+        },
+        "runspeed": 16.0,
+        "sta": {
+          "base": 20,
+          "effective": 48
+        },
+        "str": {
+          "base": 20,
+          "effective": 49
+        },
+        "tradeskill": {
+          "critfailuremod": 0.0,
+          "critsuccessmod": 0.0,
+          "durabilityadd": 0.0,
+          "durabilitymod": 0.0,
+          "progressadd": 0.0,
+          "progressmod": 0.0,
+          "rareharvestchance": 0.0,
+          "successmod": 0.0
+        },
+        "weapon": {
+          "primarydelay": 2.133333,
+          "primarymaxdamage": 7,
+          "primarymindamage": 2,
+          "rangeddelay": 4.5,
+          "rangedmaxdamage": 26,
+          "rangedmindamage": 10,
+          "secondarydelay": 2.133333,
+          "secondarymaxdamage": 7,
+          "secondarymindamage": 2
+        },
+        "wis": {
+          "base": 19,
+          "effective": 19
+        }
+      },
+      "tradeskills": {
+        "unskilled": {
+          "level": 1
+        }
+      },
+      "ts": 1328910680.5475,
+      "type": {
+        "alignment": 2,
+        "birthdate_utc": 1321830877,
+        "class": "Ranger",
+        "classid": 39,
+        "deity": "None",
+        "gender": "male",
+        "level": 6,
+        "race": "Half Elf",
+        "raceid": 6
+      },
+      "version": 1,
+      "visible": 1
+    },
+    {
+      "account": {
+        "age": 1200
+      },
+      "achievements": {
+        "achievement_list": [
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 129
+              }
+            ],
+            "id": 88025236
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 94506724
+          },
+          {
+            "completed_timestamp": 1393366102,
+            "id": 251605026
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 668424837
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 758866080
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 965684687
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 1049003283
+          },
+          {
+            "completed_timestamp": 1393117069,
+            "id": 1065322487
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              }
+            ],
+            "id": 1097937643
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 1102565135
+          },
+          {
+            "completed_timestamp": 1393116532,
+            "id": 1168843957
+          },
+          {
+            "completed_timestamp": 1393145294,
+            "id": 1194211105
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 1213239517
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 129
+              }
+            ],
+            "id": 1252172427
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 1318801974
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 1524973363
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 1546583512
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 1678189267
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 1810894314
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 1820988201
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 1832636161
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 2029289004
+          },
+          {
+            "completed_timestamp": 1393530101,
+            "id": 2047763080
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 129
+              }
+            ],
+            "id": 2097662548
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2215113233
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 1
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              },
+              {
+                "count": 0
+              }
+            ],
+            "id": 2279440750
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 2341432504
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 2357642340
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 2594075735
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2635907920
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 2643975307
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 2723805175
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 129
+              }
+            ],
+            "id": 2843307622
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 2938806738
+          },
+          {
+            "completed_timestamp": 1393367080,
+            "id": 3015012251
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 63
+              }
+            ],
+            "id": 3056048882
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 3254371681
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 129
+              }
+            ],
+            "id": 3317708252
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 129
+              }
+            ],
+            "id": 3518912729
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 3545000591
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 3582437476
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3745535325
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 3823666302
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 3983947743
+          },
+          {
+            "completed_timestamp": 1393120032,
+            "id": 3996650287
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 4042061752
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 35
+              }
+            ],
+            "id": 4088893048
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 1
+              }
+            ],
+            "id": 4100785822
+          },
+          {
+            "completed_timestamp": 0,
+            "event_list": [
+              {
+                "count": 89
+              }
+            ],
+            "id": 4129764691
+          }
+        ],
+        "completed": 7,
+        "points": 50,
+        "total_count": 2158,
+        "total_points": 41356
+      },
+      "alternateadvancements": {
+        "alternateadvancement_list": [
+          {
+            "id": 1129005336,
+            "tier": 10,
+            "treeID": 11
+          },
+          {
+            "id": 2609385793,
+            "tier": 1,
+            "treeID": 11
+          },
+          {
+            "id": 126883880,
+            "tier": 8,
+            "treeID": 11
+          }
+        ],
+        "availablepoints": 320,
+        "focusavailablepoints": 0,
+        "focusspentpoints": 2,
+        "prestigeavailablepoints": 0,
+        "prestigespentpoints": 0,
+        "spentpoints": 19,
+        "tsavailablepoints": 0,
+        "tsprestigeavailablepoints": 0,
+        "tsprestigespentpoints": 0,
+        "tsspentpoints": 0,
+        "warderpoints": 0
+      },
+      "appearanceslot_list": [
+        {
+          "displayname": "Primary",
+          "id": 0,
+          "name": "primary"
+        },
+        {
+          "displayname": "Secondary",
+          "id": 1,
+          "name": "secondary"
+        },
+        {
+          "displayname": "Head",
+          "id": 2,
+          "name": "head"
+        },
+        {
+          "displayname": "Chest",
+          "id": 3,
+          "name": "chest"
+        },
+        {
+          "displayname": "Shoulders",
+          "id": 4,
+          "name": "shoulders"
+        },
+        {
+          "displayname": "Forearms",
+          "id": 5,
+          "name": "forearms"
+        },
+        {
+          "displayname": "Hands",
+          "id": 6,
+          "name": "hands"
+        },
+        {
+          "displayname": "Legs",
+          "id": 7,
+          "name": "legs"
+        },
+        {
+          "displayname": "Feet",
+          "id": 8,
+          "name": "feet"
+        },
+        {
+          "displayname": "Finger",
+          "id": 9,
+          "name": "left_ring"
+        },
+        {
+          "displayname": "Finger",
+          "id": 10,
+          "name": "right_ring"
+        },
+        {
+          "displayname": "Ear",
+          "id": 11,
+          "name": "ears"
+        },
+        {
+          "displayname": "Ear",
+          "id": 12,
+          "name": "ears2"
+        },
+        {
+          "displayname": "Neck",
+          "id": 13,
+          "name": "neck"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 14,
+          "name": "left_wrist"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 15,
+          "name": "right_wrist"
+        },
+        {
+          "displayname": "Ranged",
+          "id": 16,
+          "name": "ranged"
+        },
+        {
+          "displayname": "Ammo",
+          "id": 17,
+          "name": "ammo"
+        },
+        {
+          "displayname": "Waist",
+          "id": 18,
+          "name": "waist"
+        },
+        {
+          "displayname": "Cloak",
+          "id": 19,
+          "name": "cloak"
+        },
+        {
+          "displayname": "Charm",
+          "id": 20,
+          "name": "activate1"
+        },
+        {
+          "displayname": "Charm",
+          "id": 21,
+          "name": "activate2"
+        },
+        {
+          "displayname": "Food",
+          "id": 22,
+          "name": "food"
+        },
+        {
+          "displayname": "Drink",
+          "id": 23,
+          "name": "drink"
+        },
+        {
+          "displayname": "Mount Adornment",
+          "id": 24,
+          "name": "mount_adornment"
+        },
+        {
+          "displayname": "Mount Armor",
+          "id": 25,
+          "name": "mount_armor"
+        }
+      ],
+      "arena": {
+        "ctf": {
+          "captures": 0,
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "deathmatch": {
+          "deaths": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        },
+        "idol": {
+          "deaths": 0,
+          "destroyed": 0,
+          "kills": 0,
+          "losses": 0,
+          "matches": 0,
+          "streak": 0,
+          "timeplayed": 0,
+          "wins": 0
+        }
+      },
+      "bio": {},
+      "collections": {
+        "active": 5,
+        "complete": 0
+      },
+      "dbid": 2799242,
+      "displayname": "Iownthedead (Unrest)",
+      "dungeon_item_list": [
+        413067166,
+        989154403,
+        2399497507,
+        3028206643
+      ],
+      "dungeon_list": [],
+      "equipmentslot_list": [
+        {
+          "displayname": "Primary",
+          "id": 0,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3251590892
+          },
+          "name": "primary"
+        },
+        {
+          "displayname": "Secondary",
+          "id": 1,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 828783759
+          },
+          "name": "secondary"
+        },
+        {
+          "displayname": "Head",
+          "id": 2,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3350006103
+          },
+          "name": "head"
+        },
+        {
+          "displayname": "Chest",
+          "id": 3,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 675685597
+          },
+          "name": "chest"
+        },
+        {
+          "displayname": "Shoulders",
+          "id": 4,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3637034765
+          },
+          "name": "shoulders"
+        },
+        {
+          "displayname": "Forearms",
+          "id": 5,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2211091694
+          },
+          "name": "forearms"
+        },
+        {
+          "displayname": "Hands",
+          "id": 6,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3103431090
+          },
+          "name": "hands"
+        },
+        {
+          "displayname": "Legs",
+          "id": 7,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 638689995
+          },
+          "name": "legs"
+        },
+        {
+          "displayname": "Feet",
+          "id": 8,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1588177668
+          },
+          "name": "feet"
+        },
+        {
+          "displayname": "Finger",
+          "id": 9,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1467497054
+          },
+          "name": "left_ring"
+        },
+        {
+          "displayname": "Finger",
+          "id": 10,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 398519819
+          },
+          "name": "right_ring"
+        },
+        {
+          "displayname": "Ear",
+          "id": 11,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1019110915
+          },
+          "name": "ears"
+        },
+        {
+          "displayname": "Ear",
+          "id": 12,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 1277661406
+          },
+          "name": "ears2"
+        },
+        {
+          "displayname": "Neck",
+          "id": 13,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 2612776740
+          },
+          "name": "neck"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 14,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 56387207
+          },
+          "name": "left_wrist"
+        },
+        {
+          "displayname": "Wrist",
+          "id": 15,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3641141017
+          },
+          "name": "right_wrist"
+        },
+        {
+          "displayname": "Ranged",
+          "id": 16,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3747459346
+          },
+          "name": "ranged"
+        },
+        {
+          "displayname": "Ammo",
+          "id": 17,
+          "name": "ammo"
+        },
+        {
+          "displayname": "Waist",
+          "id": 18,
+          "item": {
+            "adornment_list": [
+              {
+                "color": "white"
+              }
+            ],
+            "id": 3289305738
+          },
+          "name": "waist"
+        },
+        {
+          "displayname": "Cloak",
+          "id": 19,
+          "name": "cloak"
+        },
+        {
+          "displayname": "Charm",
+          "id": 20,
+          "name": "activate1"
+        },
+        {
+          "displayname": "Charm",
+          "id": 21,
+          "name": "activate2"
+        },
+        {
+          "displayname": "Food",
+          "id": 22,
+          "name": "food"
+        },
+        {
+          "displayname": "Drink",
+          "id": 23,
+          "name": "drink"
+        },
+        {
+          "displayname": "Mount Adornment",
+          "id": 24,
+          "name": "mount_adornment"
+        },
+        {
+          "displayname": "Mount Armor",
+          "id": 25,
+          "name": "mount_armor"
+        }
+      ],
+      "experience": {
+        "adventureexpfornextlevel": 7500.0,
+        "currentadventureexp": 3253.0,
+        "currenttradeskillexp": 0.0,
+        "tradeskillexpfornextlevel": 400.0
+      },
+      "faction_list": [
+        {
+          "id": 1,
+          "value": -50000
+        },
+        {
+          "id": 2,
+          "value": 5000
+        },
+        {
+          "id": 3,
+          "value": -50000
+        },
+        {
+          "id": 4,
+          "value": -50000
+        },
+        {
+          "id": 5,
+          "value": 5000
+        },
+        {
+          "id": 6,
+          "value": 40000
+        },
+        {
+          "id": 7,
+          "value": -50000
+        },
+        {
+          "id": 232,
+          "value": -10000
+        }
+      ],
+      "house_list": [],
+      "id": 450974365322,
+      "language_list": [
+        {
+          "id": 4,
+          "name": "Erudian"
+        }
+      ],
+      "last_update": 1393538937.947344,
+      "locationdata": {
+        "bindzone": "None",
+        "coords": "1570.810913,171.477051,-177.546158",
+        "homefaction": 6,
+        "world": "Unrest",
+        "worldid": 105,
+        "zonename": "Timorous Deep"
+      },
+      "name": {
+        "first": "Iownthedead",
+        "first_lower": "iownthedead",
+        "last": ""
+      },
+      "orderedalternateadvancement_list": [
+        {
+          "alternateadvancement_list": []
+        },
+        {
+          "alternateadvancement_list": []
+        },
+        {
+          "alternateadvancement_list": []
+        }
+      ],
+      "playedtime": 37599,
+      "pvp": {
+        "city_kills": 0,
+        "death_streak": 0,
+        "deaths": 0,
+        "kill_streak": 0,
+        "last_killer": 4294967295,
+        "title_rank": 0,
+        "wild_kills": 0
+      },
+      "quests": {
+        "active": 7,
+        "complete": 89
+      },
+      "resists": {
+        "arcane": {
+          "base": 0,
+          "effective": 405
+        },
+        "elemental": {
+          "base": 0,
+          "effective": 378
+        },
+        "noxious": {
+          "base": 0,
+          "effective": 439
+        },
+        "physical": {
+          "base": 169,
+          "effective": 304
+        }
+      },
+      "secondarytradeskills": {
+        "adorning": {
+          "displayname": "adorning",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "tinkering": {
+          "displayname": "tinkering",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        }
+      },
+      "skills": {
+        "adorning": {
+          "displayname": "adorning",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "alcoholtolerance": {
+          "displayname": "alcoholtolerance",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "crushing": {
+          "displayname": "crushing",
+          "earnedvalue": 31,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 31,
+          "value": 26
+        },
+        "defense": {
+          "displayname": "defense",
+          "earnedvalue": 87,
+          "effectvalue": 4,
+          "maxvalue": 90,
+          "totalvalue": 91,
+          "value": 82
+        },
+        "deflection": {
+          "displayname": "deflection",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "disruption": {
+          "displayname": "disruption",
+          "earnedvalue": 86,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 86,
+          "value": 81
+        },
+        "fishing": {
+          "displayname": "fishing",
+          "earnedvalue": 8,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 8,
+          "value": 3
+        },
+        "focus": {
+          "displayname": "focus",
+          "earnedvalue": 84,
+          "effectvalue": 4,
+          "maxvalue": 90,
+          "totalvalue": 88,
+          "value": 79
+        },
+        "foresting": {
+          "displayname": "foresting",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "gathering": {
+          "displayname": "gathering",
+          "earnedvalue": 17,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 17,
+          "value": 12
+        },
+        "investigating": {
+          "displayname": "investigating",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "mining": {
+          "displayname": "mining",
+          "earnedvalue": 7,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 7,
+          "value": 2
+        },
+        "ministration": {
+          "displayname": "ministration",
+          "earnedvalue": 59,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 59,
+          "value": 54
+        },
+        "ordination": {
+          "displayname": "ordination",
+          "earnedvalue": 75,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 75,
+          "value": 70
+        },
+        "parry": {
+          "displayname": "parry",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "piercing": {
+          "displayname": "piercing",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "ranged": {
+          "displayname": "ranged",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "safefall": {
+          "displayname": "safefall",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "slashing": {
+          "displayname": "slashing",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "subjugation": {
+          "displayname": "subjugation",
+          "earnedvalue": 53,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 53,
+          "value": 48
+        },
+        "swimming": {
+          "displayname": "swimming",
+          "earnedvalue": 78,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 78,
+          "value": 73
+        },
+        "tinkering": {
+          "displayname": "tinkering",
+          "earnedvalue": 0,
+          "effectvalue": 0,
+          "maxvalue": 0,
+          "totalvalue": 0,
+          "value": 0
+        },
+        "transmuting": {
+          "displayname": "transmuting",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 5,
+          "value": 0
+        },
+        "trapping": {
+          "displayname": "trapping",
+          "earnedvalue": 5,
+          "effectvalue": 0,
+          "maxvalue": 90,
+          "totalvalue": 5,
+          "value": 0
+        }
+      },
+      "spell_list": [
+        680981520,
+        3634487530,
+        1168334595,
+        903337899,
+        1646642380,
+        218479535,
+        3893556208,
+        687233700,
+        1731743116,
+        1784475766,
+        3882514684,
+        3588004386,
+        3768699161,
+        1707151052,
+        2430700003,
+        2330209181,
+        1633908288,
+        593093511,
+        1383125468,
+        239907279,
+        931849420,
+        3129792699,
+        2472817588,
+        326850749,
+        75416557,
+        1135130309,
+        3922273655,
+        1451256640,
+        4009409073,
+        640473661,
+        1650835133,
+        3414184553,
+        1979020877,
+        3411123966,
+        666198119,
+        371956552,
+        517717300,
+        1283257117,
+        3158390042,
+        3872891379,
+        2123583310,
+        2127697078,
+        1956152383,
+        2294951852,
+        1652154769,
+        2877794796,
+        2363182253,
+        209508829,
+        1456895583,
+        2138192917,
+        3226537914,
+        2609494795,
+        307179273,
+        3326162469,
+        1553489229,
+        730429078
+      ],
+      "statistics": {
+        "deaths": {
+          "value": 6
+        },
+        "items_crafted": {
+          "value": 0
+        },
+        "kills": {
+          "value": 418
+        },
+        "kills_deaths_ratio": {
+          "value": 69.66666666666667
+        },
+        "max_magic_hit": {
+          "spell": 15147644,
+          "value": 500
+        },
+        "max_melee_hit": {
+          "value": 66,
+          "weapon": 588121914
+        },
+        "rare_harvests": {
+          "value": 0
+        }
+      },
+      "stats": {
+        "ability": {
+          "spelltimecastpct": 0.0,
+          "spelltimerecoverypct": 0.0,
+          "spelltimereusepct": 0.0,
+          "spelltimereusespellonly": 0.0
+        },
+        "agi": {
+          "base": 24,
+          "effective": 26
+        },
+        "combat": {
+          "abilitymod": 0.0,
+          "accuracy": 0.0,
+          "aeautoattackchance": 0.0,
+          "attackspeed": 0.0,
+          "baseavoidancebonus": 0.0,
+          "basemodifier": 2.0,
+          "blockchance": 0.0,
+          "critbonus": 0.0,
+          "critchance": 0.0,
+          "dissonancegainmod": 0.0,
+          "dissonanceregen": 0.0,
+          "doubleattackchance": 0.0,
+          "dps": 0.0,
+          "flurry": 0.0,
+          "hategainmod": 0.0,
+          "incombatdissonanceregen": 0.0,
+          "incombatsavageryregen": 0.0,
+          "lethality": 0.0,
+          "lethality_pvp": 0.0,
+          "maxsavagerylevel": 0.0,
+          "mitigation_arcane": 32.568008,
+          "mitigation_arcane_pvp": 52.560341,
+          "mitigation_elemental": 31.091625,
+          "mitigation_elemental_pvp": 51.857525,
+          "mitigation_noxious": 34.317436,
+          "mitigation_noxious_pvp": 53.405891,
+          "mitigation_physical": 24.599142,
+          "mitigation_physical_pvp": 48.878597,
+          "outofcombatdissonanceregen": 0.0,
+          "outofcombatsavageryregen": 0.0,
+          "pvpcriticalmitigation": 0.0,
+          "pvptoughness": 0,
+          "savagerygainmod": 0.0,
+          "savageryregen": 0.0,
+          "spelldoubleattackchance": 0.0,
+          "strikethrough": 0.0,
+          "toughness": 0.0
+        },
+        "defense": {
+          "armor": 240,
+          "avoidance": 1325,
+          "block": 0,
+          "parry": 0
+        },
+        "health": {
+          "max": 580,
+          "regen": 27
+        },
+        "int": {
+          "base": 40,
+          "effective": 184
+        },
+        "personal_status_points": 0,
+        "power": {
+          "max": 984,
+          "regen": 43
+        },
+        "runspeed": 0.0,
+        "sta": {
+          "base": 19,
+          "effective": 75
+        },
+        "str": {
+          "base": 12,
+          "effective": 14
+        },
+        "tradeskill": {
+          "craftquantitymult": 0.0,
+          "critfailuremod": 0.0,
+          "critsuccessmod": 0.0,
+          "durabilityadd": 0.0,
+          "durabilitymod": 0.0,
+          "excritfailuremod": 0.0,
+          "excritsuccessmod": 0.0,
+          "exdurabilityadd": 0.0,
+          "exdurabilitymod": 0.0,
+          "experimentationattempts": 0.0,
+          "exprogressadd": 0.0,
+          "exprogressmod": 0.0,
+          "exsuccessmod": 0.0,
+          "materialreturnperc": 0.0,
+          "progressadd": 0.0,
+          "progressmod": 0.0,
+          "rareharvestchance": 0.0,
+          "refinequantitymod": 0.0,
+          "successmod": 0.0
+        },
+        "weapon": {
+          "primarydelay": 4.0,
+          "primarymaxdamage": 64,
+          "primarymindamage": 11,
+          "rangeddelay": -1.0,
+          "rangedmaxdamage": -1,
+          "rangedmindamage": -1,
+          "secondarydelay": -1.0,
+          "secondarymaxdamage": -1,
+          "secondarymindamage": -1
+        },
+        "wis": {
+          "base": 25,
+          "effective": 55
+        }
+      },
+      "tradeskills": {
+        "unskilled": {
+          "level": 1
+        }
+      },
+      "ts": 1393538937.947344,
+      "type": {
+        "alignment": 2,
+        "birthdate_utc": 1393107211,
+        "class": "Necromancer",
+        "classid": 30,
+        "deity": "None",
+        "gender": "male",
+        "level": 18,
+        "race": "Erudite",
+        "raceid": 3
+      },
+      "version": 2,
+      "visible": 1
+    }
+  ],
+  "limit": 5,
+  "max_ts": 1393538937.947344,
+  "min_ts": 1328910680.5475,
+  "returned": 5
+}

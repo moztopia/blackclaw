@@ -1,24 +1,23 @@
-import 'package:api_client/api.dart';
+import 'package:dio/dio.dart';
 
 import 'status/status_source.dart';
 
-/// Keeps generated OpenAPI types at the edge of the application.
+/// Legacy scaffold adapter for the Darkclaw website API health endpoint.
+///
+/// This deliberately does not use a Census client. A generated website API client will
+/// replace it after `darkclaw-website.openapi.yaml` is introduced.
 class GeneratedStatusSource implements StatusSource {
-  GeneratedStatusSource({required String baseUrl})
-    : _api = SystemApi(ApiClient(basePath: baseUrl));
+  GeneratedStatusSource({required String baseUrl}) : _dio = Dio(BaseOptions(baseUrl: baseUrl));
 
-  final SystemApi _api;
+  final Dio _dio;
 
   @override
   Future<ApiStatus> fetchStatus() async {
-    final response = await _api.getStatus();
-    if (response == null) {
-      throw StateError('The API returned an empty status response.');
+    final response = await _dio.get<Map<String, dynamic>>('/api/v1/status');
+    final data = response.data;
+    if (data == null) {
+      throw StateError('The website API returned an empty status response.');
     }
-
-    return ApiStatus(
-      status: response.status.toString(),
-      service: response.service.toString(),
-    );
+    return ApiStatus(status: '${data['status']}', service: '${data['service']}');
   }
 }

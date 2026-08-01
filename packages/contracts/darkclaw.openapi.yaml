@@ -1,0 +1,324 @@
+openapi: 3.1.0
+info:
+  title: Darkclaw API
+  version: 0.2.0
+  description: |
+    A modern, stable interface to game data sourced from Darkpaw Games Census.
+    Darkclaw normalizes upstream paths, parameters, payloads, pagination, and
+    errors so consumers never need to depend on Census-specific conventions.
+
+    Darkclaw is unofficial and is not affiliated with or endorsed by Darkpaw
+    Games.
+  termsOfService: https://darkclaw.mozrin.com/
+  contact:
+    name: Darkclaw project
+    url: https://darkclaw.mozrin.com
+externalDocs:
+  description: Darkclaw documentation
+  url: https://darkclaw.mozrin.com/docs/api-reference
+servers:
+  - url: https://api.darkclaw.mozrin.com
+    description: Production
+  - url: http://blackclaw.localhost/api
+    description: Local development
+tags:
+  - name: Discovery
+    description: Discover games and their available data collections.
+  - name: Records
+    description: Advanced access to collections without a typed Darkclaw resource.
+  - name: EverQuest II Characters
+    description: Typed EverQuest II character resources.
+paths:
+  /v1/games/{gameId}/collections:
+    get:
+      tags: [Discovery]
+      operationId: listCollections
+      summary: List available collections
+      description: Lists the upstream data collections available for a supported game.
+      parameters:
+        - $ref: '#/components/parameters/GameId'
+      responses:
+        '200':
+          description: Collection inventory.
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/CollectionListResponse'}
+        default: {$ref: '#/components/responses/Problem'}
+  /v1/games/{gameId}/collections/{collectionId}/records:
+    get:
+      tags: [Records]
+      operationId: listCollectionRecords
+      summary: List records from an untyped collection
+      description: |
+        Advanced escape hatch for collections that do not yet have a typed
+        Darkclaw resource. Prefer a typed endpoint when one exists.
+      parameters:
+        - $ref: '#/components/parameters/GameId'
+        - $ref: '#/components/parameters/CollectionId'
+        - $ref: '#/components/parameters/PageSize'
+        - $ref: '#/components/parameters/Cursor'
+        - $ref: '#/components/parameters/Fields'
+        - $ref: '#/components/parameters/Sort'
+        - $ref: '#/components/parameters/Language'
+      responses:
+        '200':
+          description: A page of collection records.
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/GenericRecordPage'}
+        default: {$ref: '#/components/responses/Problem'}
+  /v1/games/{gameId}/collections/{collectionId}/records/{recordId}:
+    get:
+      tags: [Records]
+      operationId: getCollectionRecord
+      summary: Get an untyped collection record
+      parameters:
+        - $ref: '#/components/parameters/GameId'
+        - $ref: '#/components/parameters/CollectionId'
+        - $ref: '#/components/parameters/RecordId'
+        - $ref: '#/components/parameters/Fields'
+        - $ref: '#/components/parameters/Language'
+      responses:
+        '200':
+          description: The requested collection record.
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/GenericRecordResponse'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        default: {$ref: '#/components/responses/Problem'}
+  /v1/games/eq2/characters:
+    get:
+      tags: [EverQuest II Characters]
+      operationId: listCharacters
+      summary: Search EverQuest II characters
+      parameters:
+        - $ref: '#/components/parameters/PageSize'
+        - $ref: '#/components/parameters/Cursor'
+        - $ref: '#/components/parameters/Fields'
+        - name: name
+          in: query
+          description: Exact character first name.
+          schema: {type: string, minLength: 1}
+        - name: server
+          in: query
+          description: Exact server name.
+          schema: {type: string, minLength: 1}
+        - name: className
+          in: query
+          description: Exact adventure class name.
+          schema: {type: string, minLength: 1}
+        - name: minimumLevel
+          in: query
+          schema: {type: integer, minimum: 1}
+        - name: maximumLevel
+          in: query
+          schema: {type: integer, minimum: 1}
+        - name: sort
+          in: query
+          description: Character field, prefixed with `-` for descending order.
+          schema:
+            type: string
+            enum: [name, -name, level, -level, updatedAt, -updatedAt]
+            default: name
+        - $ref: '#/components/parameters/Language'
+      responses:
+        '200':
+          description: A page of typed characters.
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/CharacterPage'}
+        default: {$ref: '#/components/responses/Problem'}
+  /v1/games/eq2/characters/{characterId}:
+    get:
+      tags: [EverQuest II Characters]
+      operationId: getCharacter
+      summary: Get an EverQuest II character
+      parameters:
+        - name: characterId
+          in: path
+          required: true
+          schema: {type: string, pattern: '^[0-9]+$'}
+        - $ref: '#/components/parameters/Fields'
+        - $ref: '#/components/parameters/Language'
+      responses:
+        '200':
+          description: The requested character.
+          content:
+            application/json:
+              schema: {$ref: '#/components/schemas/CharacterResponse'}
+        '404': {$ref: '#/components/responses/NotFound'}
+        default: {$ref: '#/components/responses/Problem'}
+components:
+  parameters:
+    GameId:
+      name: gameId
+      in: path
+      required: true
+      description: Stable Darkclaw game identifier.
+      schema:
+        type: string
+        enum: [eq, eq2, mtg, dcu, ps, ps2, ps2ps4us, ps2ps4eu]
+    CollectionId:
+      name: collectionId
+      in: path
+      required: true
+      schema: {type: string, pattern: '^[A-Za-z0-9_.:-]+$'}
+    RecordId:
+      name: recordId
+      in: path
+      required: true
+      schema: {type: string, minLength: 1}
+    PageSize:
+      name: pageSize
+      in: query
+      description: Maximum records returned in this page.
+      schema: {type: integer, minimum: 1, maximum: 100, default: 20}
+    Cursor:
+      name: cursor
+      in: query
+      description: Opaque cursor returned by the previous page.
+      schema: {type: string, minLength: 1}
+    Fields:
+      name: fields
+      in: query
+      description: Comma-separated response fields to include.
+      schema: {type: string, minLength: 1}
+    Sort:
+      name: sort
+      in: query
+      description: Comma-separated fields, prefixed with `-` for descending order.
+      schema: {type: string, minLength: 1}
+    Language:
+      name: language
+      in: query
+      description: Preferred language for localized values.
+      schema:
+        type: string
+        enum: [en, de, es, fr, it, ja]
+        default: en
+  responses:
+    Problem:
+      description: Request or service failure.
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+    NotFound:
+      description: Resource not found.
+      content:
+        application/problem+json:
+          schema: {$ref: '#/components/schemas/Problem'}
+          example:
+            type: https://darkclaw.mozrin.com/problems/not-found
+            title: Resource not found
+            status: 404
+            detail: The requested character does not exist.
+  schemas:
+    CollectionListResponse:
+      type: object
+      additionalProperties: false
+      required: [data]
+      properties:
+        data:
+          type: array
+          items: {$ref: '#/components/schemas/Collection'}
+    Collection:
+      type: object
+      additionalProperties: false
+      required: [id, recordCount, hidden, indexes, resolvers]
+      properties:
+        id: {type: string}
+        recordCount: {type: integer, format: int64, minimum: 0}
+        hidden: {type: boolean}
+        indexes:
+          type: array
+          items: {type: array, items: {type: string}}
+        resolvers: {type: array, items: {type: string}}
+    GenericRecordPage:
+      type: object
+      additionalProperties: false
+      required: [data, page]
+      properties:
+        data: {type: array, items: {$ref: '#/components/schemas/GenericRecord'}}
+        page: {$ref: '#/components/schemas/PageMetadata'}
+    GenericRecordResponse:
+      type: object
+      additionalProperties: false
+      required: [data]
+      properties:
+        data: {$ref: '#/components/schemas/GenericRecord'}
+    GenericRecord:
+      type: object
+      description: Untyped upstream record retained as an advanced escape hatch.
+      additionalProperties: true
+    CharacterPage:
+      type: object
+      additionalProperties: false
+      required: [data, page]
+      properties:
+        data: {type: array, items: {$ref: '#/components/schemas/Character'}}
+        page: {$ref: '#/components/schemas/PageMetadata'}
+    CharacterResponse:
+      type: object
+      additionalProperties: false
+      required: [data]
+      properties:
+        data: {$ref: '#/components/schemas/Character'}
+    PageMetadata:
+      type: object
+      additionalProperties: false
+      required: [pageSize, returned, nextCursor]
+      properties:
+        pageSize: {type: integer, minimum: 1, maximum: 100}
+        returned: {type: integer, minimum: 0}
+        nextCursor: {type: [string, 'null']}
+    Character:
+      type: object
+      additionalProperties: false
+      required: [id, name]
+      properties:
+        id: {type: string, pattern: '^[0-9]+$'}
+        name: {$ref: '#/components/schemas/CharacterName'}
+        displayName: {type: [string, 'null']}
+        profile: {$ref: '#/components/schemas/CharacterProfile'}
+        location: {$ref: '#/components/schemas/CharacterLocation'}
+        updatedAt:
+          type: [string, 'null']
+          format: date-time
+    CharacterName:
+      type: object
+      additionalProperties: false
+      required: [first]
+      properties:
+        first: {type: string}
+        last: {type: [string, 'null']}
+    CharacterProfile:
+      type: object
+      additionalProperties: false
+      properties:
+        classId: {type: [integer, 'null']}
+        className: {type: [string, 'null']}
+        raceId: {type: [integer, 'null']}
+        raceName: {type: [string, 'null']}
+        level: {type: [integer, 'null'], minimum: 1}
+        gender: {type: [string, 'null']}
+        deity: {type: [string, 'null']}
+        alignment: {type: [integer, 'null']}
+    CharacterLocation:
+      type: object
+      additionalProperties: false
+      properties:
+        serverId: {type: [integer, 'null']}
+        serverName: {type: [string, 'null']}
+        zoneName: {type: [string, 'null']}
+        coordinates: {type: [string, 'null']}
+    Problem:
+      type: object
+      description: RFC 9457 problem details.
+      additionalProperties: true
+      required: [type, title, status]
+      properties:
+        type: {type: string, format: uri-reference}
+        title: {type: string}
+        status: {type: integer, minimum: 400, maximum: 599}
+        detail: {type: string}
+        instance: {type: string, format: uri-reference}
