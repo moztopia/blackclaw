@@ -16,6 +16,11 @@ final class WaitlistRequest extends FormRequest
         return [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'email', 'max:255'],
+            'what_for' => [
+                'sometimes',
+                'string',
+                'in:project-updates,using-the-api,contributing,client-releases,launch',
+            ],
             'country_code' => ['nullable', 'string', 'max:8'],
             'phone' => ['nullable', 'string', 'max:20'],
         ];

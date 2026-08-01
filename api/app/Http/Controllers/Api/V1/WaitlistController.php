@@ -28,8 +28,6 @@ final class WaitlistController extends Controller
 
     public function count(): JsonResponse
     {
-        $count = WaitlistEntry::count() + 79812;
-
-        return response()->json(['count' => $count]);
+        return response()->json(['count' => WaitlistEntry::count()]);
     }
 }

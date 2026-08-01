@@ -5,7 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "${ROOT_DIR}"
 
 # --- .env -------------------------------------------------------------------
-if [[ ! -f .env ]]; then
+if [[ ! -s .env ]]; then
   if [[ ! -f .env.example ]]; then
     echo "ERROR: .env.example not found. Cannot continue." >&2
     exit 1
@@ -28,12 +28,21 @@ if [[ -f .github/workflows/deploy.yaml.template && ! -f .github/workflows/deploy
 fi
 
 # --- API .env ----------------------------------------------------------------
-if [[ ! -f api/.env ]]; then
+if [[ ! -s api/.env ]]; then
   if [[ ! -f api/.env.example ]]; then
     echo "ERROR: api/.env.example not found. Cannot continue." >&2
     exit 1
   fi
-  cp api/.env.example api/.env
+
+  # Build the file beside its destination, then rename it into place. Renaming
+  # only requires ownership of the directory, so this also repairs an empty
+  # root-owned placeholder left behind by a container without using sudo.
+  API_ENV_TMP="$(mktemp "${ROOT_DIR}/api/.env.setup.XXXXXX")"
+  trap 'rm -f -- "${API_ENV_TMP:-}"' EXIT
+  cp api/.env.example "${API_ENV_TMP}"
+  mv -f -- "${API_ENV_TMP}" api/.env
+  trap - EXIT
+
   sed -i "s|^APP_NAME=$|APP_NAME=${APP_NAME}|" api/.env
   sed -i "s|^DB_DATABASE=app$|DB_DATABASE=${APP_NAME}|" api/.env
   sed -i "s|^DB_USERNAME=app$|DB_USERNAME=${APP_NAME}|" api/.env
@@ -48,7 +57,11 @@ fi
 # --- Generate & install ------------------------------------------------------
 ./scripts/generate-clients.sh
 npm install --prefix website
-(cd packages/darkclaw-census-api-client-dart-dio && dart pub get)
+(
+  cd packages/darkclaw-census-api-client-dart-dio
+  dart pub get
+  dart run build_runner build --delete-conflicting-outputs
+)
 
 # --- Docker ------------------------------------------------------------------
 docker compose up --build --detach

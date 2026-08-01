@@ -7,8 +7,8 @@ RUN npm install -g typescript
 
 FROM base AS dependencies
 
-COPY ./packages/api-client-typescript /usr/src/packages/api-client-typescript
-RUN cd /usr/src/packages/api-client-typescript && npm install && npm run build
+COPY ./packages/darkclaw-census-api-client-typescript-axios /usr/src/packages/darkclaw-census-api-client-typescript-axios
+RUN cd /usr/src/packages/darkclaw-census-api-client-typescript-axios && npm install && npm run build
 
 COPY ./website/package.json ./website/package-lock.json ./
 RUN npm ci

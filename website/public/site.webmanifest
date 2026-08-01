@@ -4,8 +4,8 @@
   "description": "Unofficial Darkpaw Games Census API documentation and clients.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fffaf8",
-  "theme_color": "#6366f1",
+  "background_color": "#f4f2ea",
+  "theme_color": "#141810",
   "icons": [
     {
       "src": "/favicon.svg",
